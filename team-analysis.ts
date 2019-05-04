@@ -1,36 +1,154 @@
 
+const LESSER_BOOSTING_ITEM = new Set([
+  'expertbelt', 'wiseglasses', 'muscleband', 'dracoplate', 'dreadplate', 'earthplate', 'fistplate', 'flameplate', 'icicleplate', 'insectplate', 'ironplate', 'meadowplate', 'mindplate', 'skyplate', 'splashplate', 'spookyplate', 'stoneplate', 'toxicplate', 'zapplate', 'blackglasses', 'charcoal', 'dragonfang', 'hardstone', 'magnet', 'metalcoat', 'miracleseed', 'mysticwater', 'nevermeltice', 'poisonbarb', 'sharpbeak', 'silkscarf', 'silverpowder', 'softsand', 'spelltag', 'twistedspoon', 'pixieplate',
+]);
 
-function baseStalliness(pokemon) {
-  const bias = pokemon.evs.atk + pokemon.evs.spa - pokemon.evs.hp - pokemon.evs.def - pokemon.evs.spd;
-  if (pokemon.species === 'shedinja') return 0;
-  // TODO:replace this with mean stalliness for the tier
-  if (pokemon.species === 'ditto') return Math.log(3, 2);
-  return -Math.log(((2.0 * pokemon.level + 10)/250 *
-    Math.max(stats.atk, stats.spa/ Math.max(stats.def,stats.spd) * 120 + 2) * 0.925 / stats.hp, 2);
+const GREATER_BOOSTING_ITEM = new Set([
+  'firegem', 'watergem', 'electricgem', 'grassgem', 'icegem', 'fightinggem', 'posiongem', 'groundgem', 'groundgem', 'flyinggem', 'psychicgem', 'buggem', 'rockgem', 'ghostgem', 'darkgem', 'steelgem', 'normalgem', 'focussash', 'mentalherb', 'powerherb', 'whiteherb', 'absorbbulb', 'berserkgene', 'cellbattery', 'redcard', 'focussash', 'airballoon', 'ejectbutton', 'shedshell', 'aguavberry', 'apicotberry', 'aspearberry', 'babiriberry', 'chartiberry', 'cheriberry', 'chestoberry', 'chilanberry', 'chopleberry', 'cobaberry', 'custapberry', 'enigmaberry', 'figyberry', 'ganlonberry', 'habanberry', 'iapapaberry', 'jabocaberry', 'kasibberry', 'kebiaberry', 'lansatberry', 'leppaberry', 'liechiberry', 'lumberry', 'magoberry', 'micleberry', 'occaberry', 'oranberry', 'passhoberry', 'payapaberry', 'pechaberry', 'persimberry', 'petayaberry', 'rawstberry', 'rindoberry', 'rowapberry', 'salacberry', 'shucaberry', 'sitrusberry', 'starfberry', 'tangaberry', 'wacanberry', 'wikiberry', 'yacheberry','keeberry','marangaberry','roseliberry','snowball',
+  'choiceband', 'choicescarf', 'choicespecs', 'lifeorb',
+]);
+
+
+const TRAPPING_ABILITIES = new Set(['arenatrap', 'magnetpull', 'shadowtag']);
+
+const GREATER_OFFENSIVE_ABILITIES = new Set([
+  ...TRAPPING_ABILITIES, 'purepower', 'hugepower', 'speedboost', 'moody',
+]);
+
+const LESSER_OFFENSIVE_ABILITIES = new Set([
+  'chlorophyll', 'download', 'hustle', 'moxie', 'reckless', 'sandrush', 'solarpower', 'swiftswim', 'technician', 'tintedlens', 'darkaura', 'fairyaura', 'infiltrator', 'parentalbond', 'protean', 'strongjaw', 'sweetveil', 'toughclaws','aerilate','normalize','pixilate','refrigerate',
+]);
+
+const GREATER_DEFENSIVE_ABILITIES = new Set([
+  'slowstart', 'truant', 'furcoat', 'harvest',
+]);
+
+const LESSER_DEFENSIVE_ABILITITIES = new Set([
+  'dryskin', 'filter', 'hydration', 'icebody', 'intimidate', 'ironbarbs', 'marvelscale', 'naturalcure', 'magicguard', 'multiscale', 'raindish', 'roughskin', 'solidrock', 'thickfat', 'unaware', 'aromaveil', 'bulletproof', 'cheekpouch', 'gooey', 'regenerator',
+]);
+
+function abilityStallinessModifier(pokemon) {
+  const ability = pokemon.ability;
+  if (GREATER_OFFENSIVE_ABILITIES.has(ability)) return -1.0;
+  if (GREATER_DEFENSIVE_ABILITIES.has(ability)) return 1.0;
+  if (LESSER_OFFENSIVE_ABILITIES.has(ability)) return -0.5;
+  if (LESSER_DEFENSIVE_ABILITITIES.has(ability)) return 0.5;
+  return 0;
+}
+
+function itemStallinessModifier(pokemon) {
+  const item = pokemon.item;
+  if (['weaknesspolicy', 'lightclay'].includes(item)) return -1.0;
+  if (['redcard', 'rockyhelmet', 'eviolite'].includes(item)) return 0.5;
+  if (item === 'toxicorb') {
+    if (pokemon.ability === 'poisonheal') return 0.5;
+    if (['toxicboost', 'guts', 'quickfeet'].includes(pokemon.ability)) return - 1.0;
+  } 
+  if (item === 'flameorb' && 
+    ['flareboost', 'guts', 'quickfeet'].includes(pokemon.ability)) return -1.0;
+  if (item === 'souldew' && ['latios', 'latias'].includes(pokemon.species)) return -0.5;
+  if (item === 'thickclub' && ['cubone', 'marowak'].includes(pokemon.species)) return -1.0;
+  if (item === 'lightball' && pokemon.species === 'pikachu') return -1.0;
+  if (pokemon.species === 'clamperl') {
+    if (item === 'deepseatooth') return -1.0;
+    if (item === 'deepseascale') return 1.0;
+  }
+  if (item === 'adamantorb' && pokemon.species === 'diagla') return -0.25;   
+  if (item === 'lustrousorb' && pokemon.species === 'palkia') return -0.25;
+  if (item === 'griseousorb' && pokemon.species === 'giratinaorigin') return -0.25;
+  if (LESSER_BOOSTING_ITEM.has(item)) return -0.25;
+  if (GREATER_BOOSTING_ITEM.has(item)) return -0.5;
+  return 0;
 }
 
 const RECOVERY_MOVES = new Set([
   'recover' ,'slackoff', 'healorder', 'milkdrink', 'roost', 'moonlight', 'morningsun',
-  'synthesis', 'wish', 'aquaring', 'rest', 'softboiled', 'swallow', 'leechseed'
+  'synthesis', 'wish', 'aquaring', 'rest', 'softboiled', 'swallow', 'leechseed',
 ]);
 
-function modifyStalliness(pokemon, stalliness) {
-  if (['purepower', 'hugepower'].includes(pokemon.ability)) stalliness -= 1;
-  if (['choiceband','choicescarf','choicespecs','lifeorb'].include(pokemon.item)) stalliness -= 0.5;
-  if (pokemon.item === 'eviolite') stalliness += 0.5;
-  if (pokemon.moves.includes('spikes')) stalliness += 0.5;
-  if (pokemon.moves.includes('toxicspikes')) stalliness += 0.5;
-  if (pokemon.moves.includes('toxic')) stalliness += 1.0;
-  if (pokemon.moves.includes('willowisp')) stalliness += 0.5;
+const TRAPPING_MOVES = new Set(['block','meanlook','spiderweb','pursuit']);
 
-  if (pokemon.moves.some(m => RECOVERY_MOVES.has(m))) stalliness += 1.0;
-  if (pokemon.ability === 'regenerator') stalliness += 0.5;
+const PROTECT_MOVES = new Set(['protect','detect','kingsshield','matblock','spikyshield']);
 
+const SETUP_2_MOVES = new Set(['curse', 'dragondance', 'growth', 'shiftgear', 'swordsdance', 'fierydance', 'nastyplot', 'tailglow', 'quiverdance', 'geomancy']);
+const SETUP_1_MOVES = new Set(['acupressure', 'bulkup', 'coil', 'howl', 'workup', 'meditate', 'sharpen', 'calmmind', 'chargebeam', 'agility', 'autotomize', 'flamecharge', 'rockpolish', 'doubleteam', 'minimize', 'tailwind', 'poweruppunch', 'rototiller']);
+const PHAZING_MOVES = new Set(['whirlwind', 'roar', 'circlethrow', 'dragontail']);
+const PARALYSIS_MOVES = new Set([['thunderwave', 'stunspore', 'glare', 'nuzzle']]);
+const CONFUSION_MOVES = new Set(['supersonic', 'confuseray', 'swagger', 'flatter', 'teeterdance', 'yawn']);
+const SLEEP_MOVES = new Set(['darkvoid', 'grasswhistle', 'hypnosis', 'lovelykiss', 'sing', 'sleeppowder', 'spore']);
+const LESSER_OFFENSIVE_MOVES = new Set(['jumpkick', 'doubleedge', 'submission', 'petaldance', 'hijumpkick', 'outrage', 'volttackle', 'closecombat', 'flareblitz', 'bravebird', 'woodhammer', 'headsmash', 'headcharge', 'wildcharge', 'takedown', 'dragonascent']);
+const GREATER_OFFENSIVE_MOVES = new Set(['selfdestruct', 'explosion', 'destinybond', 'perishsong', 'memento', 'healingwish', 'lunardance', 'finalgambit']);
+const OHKO_MOVES = new Set(['guillotine', 'fissure', 'sheercold']);
 
-  // TODO
+function movesStallinessModifier(pokemon) {
+  const moves = new Set(pokemon.moves);
   
+  let mod = 0;
+  if (moves.has('toxic')) mod += 1.0;
+  if (moves.has('spikes')) mod += 0.5;
+  if (moves.has('toxicspikes')) mod += 0.5;
+  if (moves.has('willowisp')) mod += 0.5;
+  if (moves.has('psychoshift')) mod += 0.5;
+  if (moves.has('healbell') || moves.has('aromatherapy')) mod += 0.5;
+  if (moves.has('haze') || moves.has('clearsmog')) mod += 0.5;
+  if (moves.has('substitute')) mod -= 0.5;
+  if (moves.has('superfang')) mod -= 0.5;
+  if (moves.has('trick')) mod -= 0.5;
+  if (moves.has('endeavor')) mod -= 1.0;
 
-  return stalliness;
+  if (pokemon.moves.some(m => RECOVERY_MOVES.has(m))) mod += 1.0;
+  if (pokemon.moves.some(m => PROTECT_MOVES.has(m))) mod += 1.0;
+  if (pokemon.moves.some(m => PHAZING_MOVES.has(m))) mod += 0.5;
+  if (pokemon.moves.some(m => PARALYSIS_MOVES.has(m))) mod += 0.5;
+  if (pokemon.moves.some(m => CONFUSION_MOVES.has(m))) mod += 0.5;
+  if (pokemon.moves.some(m => SLEEP_MOVES.has(m))) mod -= 0.5;
+  if (pokemon.moves.some(m => LESSER_OFFENSIVE_MOVES.has(m))) mod -= 0.5;
+  if (pokemon.moves.some(m => GREATER_OFFENSIVE_MOVES.has(m))) mod -= 1.0;
+  if (pokemon.moves.some(m => OHKO_MOVES.has(m))) mod -= 1.0;
+
+  if (moves.has('bellydrum')) {
+    mod -= 2.0;
+  } else if (moves.has('shellsmash')) {
+    mod -= 1.5;
+  } else if (pokemon.moves.some(m => SETUP_2_MOVES.has(m))) {
+    mod -= 1.0;
+  } else if (pokemon.moves.some(m => SETUP_1_MOVES.has(m))) {
+    mod -= 0.5;
+  }
+
+  return mod;
+}
+
+function baseStalliness(pokemon) {
+  if (pokemon.species === 'shedinja') return 0;
+  // TODO:replace this with mean stalliness for the tier
+  if (pokemon.species === 'ditto') return Math.log(3) / Math.log(2);
+  const stats = pokemon.stats;
+  return -Math.log(((2.0 * pokemon.level + 10)/250 *
+    Math.max(stats.atk, stats.spa/ Math.max(stats.def, stats.spd) * 120 + 2) * 0.925 / stats.hp, 2));
+}
+
+function pokemonStalliness(pokemon) {
+  let stalliness = baseStalliness(pokemon);
+  stalliness += abilityStallinessModifier(pokemon);
+  stalliness += itemStallinessModifier(pokemon);
+  stalliness += movesStallinessModifier(pokemon);
+
+  if (TRAPPING_ABILITIES.has(pokemon.ability)) {
+    stalliness -= 1.0;
+  } else if (pokemon.moves.some(m => TRAPPING_MOVES.has(m))) {
+    stalliness -= 0.5;
+  }
+  if (pokemon.ability === 'harvest' || pokemon.moves.includes('recycle')) {
+    stalliness += 1.0;
+  }
+  if (['sandstream','snowwarning'].includes(pokemon.ability) ||
+      pokemon.moves.some(m => ['sandstorm', 'hail'].includes(m))) {
+    stalliness += 0.5;
+  }
+
+  const bias = pokemon.evs.atk + pokemon.evs.spa - pokemon.evs.hp - pokemon.evs.def - pokemon.evs.spd;
+  return {bias, stalliness};
 }
 
 function teamStalliness(team) {
@@ -44,33 +162,33 @@ function teamStalliness(team) {
 
     if (!tags.has('multiweather') && !tags.has('allweather') && !tags.has('weatherless')) {
       if (tags.has('rain')) {
-        tags.append('rainoffense');
+        tags.add('rainoffense');
       } else if (tags.has('sun')) {
-        tags.append('sunoffense');
+        tags.add('sunoffense');
       } else if (tags.has('sand')) {
-        tags.append('sandoffense'));  
+        tags.add('sandoffense');  
       } else {
-        tags.append('hailoffense');
+        tags.add('hailoffense');
       }
     }
   } else if (stalliness < 0) {
     tags.add('offense');
   } else if (stalliness < 1.0) {
     tags.add('balance');
-  } else if (stalliness < Math.log(3.0, 2.0)) {
+  } else if (stalliness < Math.log(3) / Math.log(2)) {
     tags.add('semistall');
   } else {
     tags.add('stall');
    
     if (!tags.has('multiweather') && !tags.has('allweather') && !tags.has('weatherless')) {
       if (tags.has('rain')) {
-        tags.append('rainstall');
+        tags.add('rainstall');
       } else if (tags.has('sun')) {
-        tags.append('sunstall');
+        tags.add('sunstall');
       } else if (tags.has('sand')) {
-        tags.append('sandstall'));  
+        tags.add('sandstall');  
       } else {
-        tags.append('hailstall');
+        tags.add('hailstall');
       }
     }
   }
@@ -152,7 +270,7 @@ function tag(team) {
     }
     if (style.slow < 2 && pokemon.evs.spe < 5 && 
       (['brave', 'relaxed', 'quiet', 'sassy'].includes(pokemon.nature) ||
-        BASE_STATS[pokemon.species].spe <= 50) { // FIXME: use actual stats and speed factor...
+        BASE_STATS[pokemon.species].spe <= 50)) { // FIXME: use actual stats and speed factor...
       style.slow++;
     }
     if (style.gravity < 2 && pokemon.moves.includes('gravity')) {
@@ -192,41 +310,41 @@ function tag(team) {
 
   const tags = [];
 
-  if (weather.rain > 1) tags.append('rain');
-  if (weather.sun > 1) tags.append('sun');
-  if (weather.sand > 1) tags.append('sand');
-  if (weather.hail > 1) tags.append('hail');
+  if (weather.rain > 1) tags.push('rain');
+  if (weather.sun > 1) tags.push('sun');
+  if (weather.sand > 1) tags.push('sand');
+  if (weather.hail > 1) tags.push('hail');
 
   if (tags.length === 4) {
-    tags.append('allweather');
+    tags.push('allweather');
   } else if (tags.length > 1) {
-    tags.append('multiweather');
+    tags.push('multiweather');
   } else if (tags.length === 0) {
-    tags.append('weatherless');
+    tags.push('weatherless');
   }
 
-  if (style.batonpass > 1) tags.append('batonpass');
-  if (style.tailwind > 1) tags.append('tailwind');
+  if (style.batonpass > 1) tags.push('batonpass');
+  if (style.tailwind > 1) tags.push('tailwind');
   const trickroom = style.trickroom > 2 || (style.trickroom > 1 && style.slow > 1);
   if (trickroom) {
-    tags.append('trickroom');
-    if (weather.rain > 1) tags.append('trickrain');
-    if (weather.sun > 1) tags.append('tricksun');
-    if (weather.sand > 1) tags.append('tricksand');
-    if (weather.hail > 1) tags.append('trickhail');
+    tags.push('trickroom');
+    if (weather.rain > 1) tags.push('trickrain');
+    if (weather.sun > 1) tags.push('tricksun');
+    if (weather.sand > 1) tags.push('tricksand');
+    if (weather.hail > 1) tags.push('trickhail');
   }
-  if (style.gravity > 2  || (style.gravity > 1 && style.lowacc > 1)) tags.append('gravity');
-  if (style.voltturn > 2 && style.batonpass < 2) tags.append('voltturn');
-  if (style.dragons > 1 && style.trappers > 0) tags.append('dragmag');
-  if (style.trappers > 2) tags.append('trapper');
+  if (style.gravity > 2  || (style.gravity > 1 && style.lowacc > 1)) tags.push('gravity');
+  if (style.voltturn > 2 && style.batonpass < 2) tags.push('voltturn');
+  if (style.dragons > 1 && style.trappers > 0) tags.push('dragmag');
+  if (style.trappers > 2) tags.push('trapper');
   if (style.fear > 2 && style.clearance > 1) {
-    tags.append('fear');
-    if (weather.sand > 1) tags.append('sandfear');
-    if (weather.hail > 1) tags.append('hailfear');
-    if (trickroom) tags.append('trickfear');
+    tags.push('fear');
+    if (weather.sand > 1) tags.push('sandfear');
+    if (weather.hail > 1) tags.push('hailfear');
+    if (trickroom) tags.push('trickfear');
   }
-  if (style.choice > 3) tags.append('choice');
-  if (style.choice > 1) tags.append('swagplay');
+  if (style.choice > 3) tags.push('choice');
+  if (style.choice > 1) tags.push('swagplay');
 
   return new Set(tags);
 }

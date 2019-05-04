@@ -60,12 +60,4 @@ export const Glicko = new class {
     rating.d2 = 0;
     return rating
   }
-
-  headers() {
-    return 'Glicko R,Glicko RD'
-  }
-
-  printRating(rating: Rating) {
-    return `${rating.R},${rating.RD}`;
-  }
 };
