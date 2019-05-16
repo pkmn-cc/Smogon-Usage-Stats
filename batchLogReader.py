@@ -154,7 +154,7 @@ def LogReader(filename,tier,movesets,ratings):
 	mrayAllowed = tier not in ['ubers','battlefactory','megamons', 'gen6ubers', 'gen7ubers', 'gen7pokebankubers']
 
 	file = open(filename)
-	raw = file.readline()
+	raw = file.read()
 	file.close()
 	
 	if raw=='"log"': #https://github.com/Zarel/Pokemon-Showdown/commit/92a4f85e0abe9d3a9febb0e6417a7710cabdc303

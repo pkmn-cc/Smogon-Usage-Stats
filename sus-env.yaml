@@ -1,0 +1,7 @@
+name: sus-env
+dependencies:
+- python=2
+- ujson
+- pip
+- pip:
+  - js2py
