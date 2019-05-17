@@ -317,7 +317,7 @@ if metagamefile:
 	metagamefile.write('\n')
 
 	#stalliness
-	stallCounter=sorted(stallCounter, key=lambda stallCounter:stallCounter[0])
+	stallCounter=sorted(stallCounter, key=lambda stallCounter:(stallCounter[0], stallCounter[1]))
 
 	if stallCounter:
 		#figure out a good bin range by looking at .1% and 99.9% points
@@ -348,7 +348,7 @@ if metagamefile:
 		while x-binSize/2 > low:
 			histogram.append([x,0])
 			x=x-binSize
-		histogram=sorted(histogram, key=lambda histogram:histogram[0])
+		histogram=sorted(histogram, key=lambda histogram:(histogram[0], histogram[1]))
 		nbins = len(histogram)
 
 		for start in range(len(stallCounter)):

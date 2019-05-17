@@ -27,8 +27,8 @@ def usageToTiers(usage):
 			OU.append([i,usage[i][0]])
 		if usage[i][1] > 0.0:
 			UU.append([i,usage[i][1]])
-	OU = sorted(OU, key=lambda OU:-OU[1])
-	UU = sorted(UU, key=lambda UU:-UU[1])
+	OU = sorted(OU, key=lambda OU:(-OU[1], OU[0]))
+	UU = sorted(UU, key=lambda UU:(-UU[1]. UU[0]))
 	return (OU,UU)
 
 def raiseAndDrop(curTiers,usage,lowest,rise,drop):

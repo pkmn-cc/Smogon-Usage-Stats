@@ -228,9 +228,9 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 			else:
 				table.append([keyLookup[i],stuff[x][i]])
 		if x is 'Checks and Counters':
-			table=sorted(table, key=lambda table:-(table[1][1]-4.0*table[1][2]))
+			table=sorted(table, key=lambda table:(-(table[1][1]-4.0*table[1][2]), table[0]))
 		else:
-			table=sorted(table, key=lambda table:-table[1])
+			table=sorted(table, key=lambda table:(-table[1], table[0]))
 		total = 0.0
 		for i in range(len(table)): 
 			if (total > .95 and x is not 'Abilities') or (x is 'Abilities' and i>5) or (x is 'Spreads' and i>5) or (x is 'Teammates' and i>11) or (x is 'Checks and Counters' and i>11):
@@ -316,7 +316,7 @@ for poke in usage.keys():
 if sys.argv[1] in ['randombattle','challengecup','challengecup1v1','seasonal']:
 	pokes=sorted(pokes)
 else:
-	pokes=sorted(pokes, key=lambda pokes:-pokes[1])
+	pokes=sorted(pokes, key=lambda pokes:(-pokes[1], pokes[0]))
 
 chaos = {'info': {'metagame': str(sys.argv[1]), 'cutoff': cutoff, 'cutoff deviation': cutoffdeviation, 'team type': teamtype, 'number of battles': nBattles},'data':{}}
 for poke in pokes:

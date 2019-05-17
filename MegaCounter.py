@@ -31,7 +31,7 @@ for species in stats['data'].keys():
 					if mega[1][-1] != 'x':
 						break
 
-megastats=sorted(megastats, key=lambda megastats:-megastats[1])
+megastats=sorted(megastats, key=lambda megastats:(-megastats[1], megastats[0]))
 for mega in megastats:
 	print "%-18s%8.5f%%" % (mega[0],600.0*mega[1]/total)
 

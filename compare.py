@@ -16,7 +16,7 @@ pokes=[]
 for i in diff.keys():
 	pokes.append([i,diff[i]])
 
-pokes=sorted(pokes, key=lambda pokes:-pokes[1])
+pokes=sorted(pokes, key=lambda pokes:(-pokes[1], pokes[0]))
 if (nold != nnew):
 	if (nold < nnew):
 		printme = " Up %5.2f%%" % (100*float(nnew-nold)/nold)

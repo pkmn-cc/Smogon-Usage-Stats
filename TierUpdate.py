@@ -119,11 +119,11 @@ def main(months):
 		if usage[i][4] > 0.0:
 			PU.append([i,usage[i][4]])
 
-	OU = sorted(OU, key=lambda OU:-OU[1])
-	UU = sorted(UU, key=lambda UU:-UU[1])
-	RU = sorted(RU, key=lambda RU:-RU[1])
-	NU = sorted(NU, key=lambda NU:-NU[1])
-	PU = sorted(PU, key=lambda PU:-PU[1])
+	OU = sorted(OU, key=lambda OU:(-OU[1], OU[0]))
+	UU = sorted(UU, key=lambda UU:(-UU[1], UU[0]))
+	RU = sorted(RU, key=lambda RU:(-RU[1], RU[0]))
+	NU = sorted(NU, key=lambda NU:(-NU[1], NU[0]))
+	PU = sorted(PU, key=lambda PU:(-PU[1], PU[0]))
 
 	makeTable(OU,"OU",keyLookup)
 	makeTable(UU,"UU",keyLookup)
