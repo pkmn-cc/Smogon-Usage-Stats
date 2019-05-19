@@ -47,4 +47,4 @@ function process {
 export -f process
 
 ls -S Raw/ | parallel -j 3 process
-./MonotypeAnalysis.sh
+#./MonotypeAnalysis.sh
