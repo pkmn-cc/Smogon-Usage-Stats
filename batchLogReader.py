@@ -14,6 +14,8 @@ import os
 import ladderdev.Glicko as Glicko
 import cPickle as pickle
 
+from debug import *
+
 from common import *
 from TA import *
 
@@ -761,7 +763,8 @@ def LogReader(filename,tier,movesets,ratings):
 	writeme['turns']=int(log['turns'])
 	if 'endType' in log.keys():
 		writeme['endType']=log['endType']
-	
+
+	jebug(writeme)
 	#outfile.write(lzma.compress(json.dumps(writeme))+'\n')
 	return writeme
 
