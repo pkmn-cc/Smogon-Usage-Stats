@@ -838,13 +838,13 @@ def main(argv):
 	if writeme:
 		outname = "Raw/"+tier#+".txt"
 		outfile=gzip.open(outname,'ab')
-		jebug(writeme)
+		# jebug(writeme)
 		outfile.write(json.dumps(writeme)+'\n')
 		outfile.close()
 
 		#write to moveset file
 		for species in movesets.keys():
-			jebug(movesets[species])
+			# jebug(movesets[species])
 			outname = "Raw/moveset/"+tier+"/"+species#+".txt"
 			d = os.path.dirname(outname)
 			if not os.path.exists(d):

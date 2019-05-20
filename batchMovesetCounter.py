@@ -76,7 +76,6 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 					weight=weighting(1459.83938566,122.858308077,cutoff)
 				#else it's a tie, and we use 1500
 
-			debug(str(cutoff) + ' ' + moveset['trainer'] + ' ' +  str(weight))
 			if moveset['ability'] not in keyLookup:
 				moveset['ability'] = 'illuminate'
 			if moveset['ability'] not in abilities:
