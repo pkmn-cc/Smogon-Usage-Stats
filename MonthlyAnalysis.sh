@@ -11,7 +11,7 @@ function process {
 		return
 	fi
 
-	echo "Processing "$tier >> log.log
+	#echo "Processing "$tier >> log.log
 
 	if [[ $tier == "ou" ]] || [[ $tier == "doublesou" ]] || [[ $tier == "randombattle" || $tier == 'oususpecttest' ]] || [[ $tier == "smogondoublessuspecttest" ]] || [[ $tier == "doublesoususpecttest" ]] || [[ $tier == "gen7pokebankou" ]] || [[ $tier == "gen7ou" ]] || [[ $tier == "gen7pokebankdoublesou" ]]|| [[ $tier == "gen7pokebankoususpecttest" ]] || [[ $tier == "gen7oususpecttest" ]] || [[ $tier == "gen7pokebankdoublesoususpecttest" ]] || [[ $tier == "gen7doublesoususpecttest" ]] || [[ $tier == "gen7doublesou" ]]; then
 		python StatCounter.py $tier 1695 &&

@@ -12,6 +12,8 @@ import math
 import copy
 from common import keyify
 
+from debug import *
+
 file = open('baseStats.json')
 baseStats = json.loads(file.readline())
 file.close()
@@ -139,10 +141,13 @@ def analyzePoke(poke):
 	else:
 		try:
 			stalliness=-math.log(((2.0*poke['level']+10)/250*max(stats[1],stats[3])/max(stats[2],stats[4])*120+2)*0.925/stats[0],2)
+
 		except:
 			sys.stderr.write('Got a problem with a '+species+'\n')
 			sys.stderr.write(poke)
 			return None
+
+	#debug("%s %f" % (species, stalliness))
 
 	#moveset modifications
 	if poke['ability'] in ['purepower','hugepower']:
@@ -163,6 +168,8 @@ def analyzePoke(poke):
 		stalliness += 1.0
 	if poke['ability'] == 'regenerator':
 		stalliness += 0.5
+
+	#debug("a " + str(stalliness))
 	if len(set(['healbell','aromatherapy']).intersection(poke['moves'])) != 0:
 		stalliness += 0.5
 	if poke['ability'] in ['chlorophyll', 'download', 'hustle', 'moxie', 'reckless', 'sandrush', 'solarpower', 'swiftswim', 'technician', 'tintedlens', 'darkaura', 'fairyaura', 'infiltrator', 'parentalbond', 'protean', 'strongjaw', 'sweetveil', 'toughclaws','aerilate','normalize','pixilate','refrigerate']:
@@ -177,6 +184,7 @@ def analyzePoke(poke):
 		stalliness -= 1.0
 	elif len(set(['block','meanlook','spiderweb','pursuit']).intersection(poke['moves'])) != 0:
 		stalliness -= 0.5
+	# debug("b " + str(stalliness))
 	if poke['ability'] in ['dryskin', 'filter', 'hydration', 'icebody', 'intimidate', 'ironbarbs', 'marvelscale', 'naturalcure', 'magicguard', 'multiscale', 'raindish', 'roughskin', 'solidrock', 'thickfat', 'unaware', 'aromaveil', 'bulletproof', 'cheekpouch', 'gooey']:
 		stalliness += 0.5
 	if poke['ability'] == 'poisonheal' and poke['item'] == 'toxicorb':
@@ -185,6 +193,7 @@ def analyzePoke(poke):
 		stalliness += 1.0
 	if poke['item'] == 'lightclay':
 		stalliness -= 1.0
+	# debug("c " + str(stalliness))
 	if 'bellydrum' in poke['moves']:
 		stalliness -= 2.0
 	elif 'shellsmash' in poke['moves']:
@@ -195,6 +204,9 @@ def analyzePoke(poke):
 		stalliness -= 0.5
 	if 'substitute' in poke['moves']:
 		stalliness -= 0.5
+
+
+	# debug("1 " + str(stalliness))
 	if len(set(['protect','detect','kingsshield','matblock','spikyshield']).intersection(poke['moves'])) != 0:
 		stalliness += 1.0
 	if 'endeavor' in poke['moves']:
@@ -223,6 +235,8 @@ def analyzePoke(poke):
 		stalliness -= 0.5
 	if poke['ability'] == 'harvest' or 'recycle' in poke['moves']:
 		stalliness += 1.0
+
+	# debug("2 " + str(stalliness))
 	if len(set(['jumpkick', 'doubleedge', 'submission', 'petaldance', 'hijumpkick', 'outrage', 'volttackle', 'closecombat', 'flareblitz', 'bravebird', 'woodhammer', 'headsmash', 'headcharge', 'wildcharge', 'takedown', 'dragonascent']).intersection(poke['moves'])) != 0:
 		stalliness -= 0.5
 	if len(set(['selfdestruct', 'explosion', 'destinybond', 'perishsong', 'memento', 'healingwish', 'lunardance', 'finalgambit']).intersection(poke['moves'])) != 0:
@@ -235,6 +249,7 @@ def analyzePoke(poke):
 		stalliness -= 0.5
 	if species == 'pikachu' and poke['item'] == 'lightball':
 		stalliness -= 1.0
+	# debug("d " + str(stalliness))
 	if species in ['cubone', 'marowak'] and poke['item'] == 'thickclub':
 		stalliness -= 1.0
 	if species == 'clamperl' and poke['item'] == 'deepseatooth':
@@ -243,6 +258,7 @@ def analyzePoke(poke):
 		stalliness += 1.0
 	if poke['item'] in ['expertbelt', 'wiseglasses', 'muscleband', 'dracoplate', 'dreadplate', 'earthplate', 'fistplate', 'flameplate', 'icicleplate', 'insectplate', 'ironplate', 'meadowplate', 'mindplate', 'skyplate', 'splashplate', 'spookyplate', 'stoneplate', 'toxicplate', 'zapplate', 'blackglasses', 'charcoal', 'dragonfang', 'hardstone', 'magnet', 'metalcoat', 'miracleseed', 'mysticwater', 'nevermeltice', 'poisonbarb', 'sharpbeak', 'silkscarf', 'silverpowder', 'softsand', 'spelltag', 'twistedspoon', 'pixieplate']:
 		stalliness -= 0.25
+	# debug("e " + str(stalliness))
 	if species == 'dialga' and poke['item'] == 'adamantorb':
 		stalliness -= 0.25
 	if species == 'palkia' and poke['item'] == 'lustrousorb':
@@ -252,6 +268,7 @@ def analyzePoke(poke):
 	if poke['item'] == 'weaknesspolicy':
 		stalliness -= 1.0
 	
+	#jebug({'species': species, 'stalliness': stalliness, 'bias': bias})
 	return stalliness,bias
 
 def analyzeTeam(team):

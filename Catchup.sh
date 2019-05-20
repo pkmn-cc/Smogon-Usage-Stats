@@ -14,15 +14,15 @@ do
 	do
 		tier=$(basename $i)
 		if [[ $tier == seasonal* ]] || [[ $tier == *random* ]] || [[ $tier == *metronome* ]] || [[ $tier == *superstaff* ]]; then
-			echo Skipping $tier/$month-$day
+			#echo Skipping $tier/$month-$day
 			continue
 		fi
 		if [ -d $logFolder/$month/$tier/$month-$day ]; then
-			echo Processing $tier/$month-$day
+			#echo Processing $tier/$month-$day
 			python batchLogReader.py $logFolder/$month/$tier/$month-$day/ $tier
 		fi
 	done
 done
-echo $(date)
+#echo $(date)
 ./MonthlyAnalysis.sh
-echo $(date)
+#echo $(date)
