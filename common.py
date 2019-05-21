@@ -215,3 +215,15 @@ non6v6Formats = [
 	'gen71v1',
 	'gen7alolafriendly',
 ]
+
+if __name__ == '__main__':
+	all = {}
+	for name in aliases.keys():
+		id = keyify(name)
+		for alias in aliases[name]:
+			key = keyify(alias)
+			if key != id:
+				all[keyify(alias)] = id
+
+	print json.dumps(all, indent=2)
+
