@@ -32,6 +32,11 @@ from debug import *
 
 from common import *
 
+def fmod(a, b):
+    a = round(a, 3)
+    b = round(b, 3)
+    return (a * 1e3) % (b * 1e3) / 1e3
+
 #this is a lookup table for the outcomes if poke1 and poke2 were exchanged
 otherGuy = [1,0,2,4,3,5,7,6,9,8,11,10,12]
 
@@ -303,6 +308,7 @@ if t not in nonSinglesFormats and t not in ['1v1','challengecup1vs1']: #lead sta
 	leadsfile.write(" + ---- + ------------------ + --------- + ------ + ------- + \n")
 	leadsfile.close()
 
+# debug('CUTOFF: ' + str(cutoff))
 #metagame analysis
 if metagamefile:
 	tags = []
@@ -383,7 +389,7 @@ if metagamefile:
 			#print histogram
 			metagamefile.write(' Stalliness (mean: %6.3f)\n'%(x/y))
 			for i in range(len(histogram)):
-				if histogram[i][0]%(2.0*binSize) < binSize/2:
+				if fmod(histogram[i][0], 2.0*binSize) < binSize/2:
 					line = ' '
 					if histogram[i][0]>0.0:
 						line=line+'+'
