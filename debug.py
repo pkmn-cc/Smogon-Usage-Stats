@@ -6,4 +6,4 @@ def debug(s):
     sys.stderr.write(s + '\n')
 
 def jebug(o):
-    debug(json.dumps(o, indent=2))
+    debug(json.dumps(o))

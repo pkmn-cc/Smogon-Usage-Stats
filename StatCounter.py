@@ -308,7 +308,7 @@ if metagamefile:
 	tags = []
 	for tag in tagCounter:
 		tags.append([tag,tagCounter[tag]])
-	tags=sorted(tags, key=lambda tags:-tags[1])
+	tags=sorted(tags, key=lambda tags:(-tags[1], tags[0]))
 
 	for i in range(0,len(tags)):
 		line = ' '+tags[i][0]
@@ -319,7 +319,7 @@ if metagamefile:
 	metagamefile.write('\n')
 
 	#stalliness
-	stallCounter=sorted(stallCounter, key=lambda stallCounter:stallCounter[0])
+	stallCounter=sorted(stallCounter, key=lambda stallCounter:(stallCounter[0], stallCounter[1]))
 
 	if stallCounter:
 		#figure out a good bin range by looking at .1% and 99.9% points
