@@ -236,7 +236,8 @@ def main(months):
 			newTiers[poke] = tiers[-1]
 
 	print ""
-	for poke in curTiers:
+        # TODO sort!
+	for poke in sorted(curTiers.keys()):
 		if curTiers[poke] != newTiers[poke]:
 			species = keyLookup[poke]
 			if species.endswith('-Mega') or species.endswith('-Mega-X') or species.endswith('-Mega-Y') or species.endswith('-Primal'):
