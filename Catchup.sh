@@ -2,8 +2,8 @@
 #This file is included solely to be used as an example. It will likely need to be heavily modified from month to month
 #(or from run to run)
 
-logFolder=/home/ps/showdown/logs
-month="2018-12"
+logFolder=logs
+month="2019-05"
 rm -r Raw
 mkdir Raw
 

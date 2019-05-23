@@ -30,6 +30,11 @@ import gzip
 
 from common import *
 
+def fmod(a, b):
+    a = round(a, 3)
+    b = round(b, 3)
+    return (a * 1e3) % (b * 1e3) / 1e3
+
 #this is a lookup table for the outcomes if poke1 and poke2 were exchanged
 otherGuy = [1,0,2,4,3,5,7,6,9,8,11,10,12]
 
@@ -252,9 +257,9 @@ encounterfile.close()
 
 #sort by weighted usage
 if tier in ['challengecup1v1','1v1']:
-	pokes=sorted(pokes, key=lambda pokes:-pokes[2])
+	pokes=sorted(pokes, key=lambda pokes:(-pokes[2], pokes[0]))
 else:
-	pokes=sorted(pokes, key=lambda pokes:-pokes[3])
+	pokes=sorted(pokes, key=lambda pokes:(-pokes[3], pokes[0]))
 p=[]
 usagefile.write(" Total battles: "+str(battleCount)+"\n")
 try:
@@ -289,7 +294,7 @@ if t not in nonSinglesFormats and t not in ['1v1','challengecup1vs1']: #lead sta
 	pokes = []
 	for i in pokedict:
 		pokes.append([i]+pokedict[i])
-	pokes=sorted(pokes, key=lambda pokes:-pokes[2])
+	pokes=sorted(pokes, key=lambda pokes:(-pokes[2], pokes[0]))
 	leadsfile.write(" Total leads: "+str(battleCount*2)+"\n")
 	leadsfile.write(" + ---- + ------------------ + --------- + ------ + ------- + \n")
 	leadsfile.write(" | Rank | Pokemon            | Usage %   | Raw    | %       | \n")
@@ -306,7 +311,7 @@ if metagamefile:
 	tags = []
 	for tag in tagCounter:
 		tags.append([tag,tagCounter[tag]])
-	tags=sorted(tags, key=lambda tags:-tags[1])
+	tags=sorted(tags, key=lambda tags:(-tags[1], tags[0]))
 
 	for i in range(0,len(tags)):
 		line = ' '+tags[i][0]
@@ -317,7 +322,7 @@ if metagamefile:
 	metagamefile.write('\n')
 
 	#stalliness
-	stallCounter=sorted(stallCounter, key=lambda stallCounter:stallCounter[0])
+	stallCounter=sorted(stallCounter, key=lambda stallCounter:(stallCounter[0], stallCounter[1]))
 
 	if stallCounter:
 		#figure out a good bin range by looking at .1% and 99.9% points
@@ -381,7 +386,7 @@ if metagamefile:
 			#print histogram
 			metagamefile.write(' Stalliness (mean: %6.3f)\n'%(x/y))
 			for i in range(len(histogram)):
-				if histogram[i][0]%(2.0*binSize) < binSize/2:
+				if fmod(histogram[i][0], 2.0*binSize) < binSize/2:
 					line = ' '
 					if histogram[i][0]>0.0:
 						line=line+'+'
