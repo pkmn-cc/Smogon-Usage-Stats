@@ -308,7 +308,6 @@ if t not in nonSinglesFormats and t not in ['1v1','challengecup1vs1']: #lead sta
 	leadsfile.write(" + ---- + ------------------ + --------- + ------ + ------- + \n")
 	leadsfile.close()
 
-# debug('CUTOFF: ' + str(cutoff))
 #metagame analysis
 if metagamefile:
 	tags = []
