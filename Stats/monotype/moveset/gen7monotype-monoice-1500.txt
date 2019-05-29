@@ -1,0 +1,2207 @@
+ +----------------------------------------+ 
+ | Ninetales-Alola                        | 
+ +----------------------------------------+ 
+ | Raw count: 19861                       | 
+ | Avg. weight: 0.482116623485            | 
+ | Viability Ceiling: 87                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Warning 98.423%                   | 
+ | Snow Cloak  1.577%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Light Clay 58.146%                     | 
+ | Icy Rock 20.370%                       | 
+ | Focus Sash  6.134%                     | 
+ | Leftovers  3.576%                      | 
+ | Choice Specs  3.107%                   | 
+ | Choice Scarf  2.198%                   | 
+ | Life Orb  1.858%                       | 
+ | Other  4.611%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Timid:0/0/0/252/4/252 72.881%          | 
+ | Timid:0/0/4/252/0/252  5.535%          | 
+ | Timid:4/0/0/252/0/252  4.923%          | 
+ | Timid:248/0/0/8/0/252  2.591%          | 
+ | Timid:0/0/0/252/0/252  1.904%          | 
+ | Timid:252/0/0/4/0/252  1.300%          | 
+ | Other 10.866%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Moonblast 90.311%                      | 
+ | Aurora Veil 86.139%                    | 
+ | Freeze-Dry 72.831%                     | 
+ | Blizzard 48.623%                       | 
+ | Encore 35.209%                         | 
+ | Hidden Power Fire 12.474%              | 
+ | Nasty Plot 12.208%                     | 
+ | Psyshock  5.292%                       | 
+ | Dazzling Gleam  4.088%                 | 
+ | Calm Mind  3.674%                      | 
+ | Dark Pulse  3.590%                     | 
+ | Hypnosis  3.409%                       | 
+ | Heal Bell  2.779%                      | 
+ | Other 19.372%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Sandslash-Alola +1.599%                | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Mamoswine                              | 
+ +----------------------------------------+ 
+ | Raw count: 14539                       | 
+ | Avg. weight: 0.503215828658            | 
+ | Viability Ceiling: 87                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Thick Fat 65.551%                      | 
+ | Oblivious 27.621%                      | 
+ | Snow Cloak  6.827%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 43.228%                     | 
+ | Choice Scarf 18.627%                   | 
+ | Life Orb 11.840%                       | 
+ | Leftovers 10.346%                      | 
+ | Choice Band  5.975%                    | 
+ | Assault Vest  3.651%                   | 
+ | Metronome  1.175%                      | 
+ | Rocky Helmet  1.085%                   | 
+ | Other  4.073%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Jolly:0/252/0/0/4/252 28.699%          | 
+ | Jolly:0/252/4/0/0/252 19.379%          | 
+ | Adamant:248/252/0/0/8/0 13.515%        | 
+ | Adamant:0/252/0/0/4/252  6.449%        | 
+ | Jolly:4/252/0/0/0/252  4.298%          | 
+ | Adamant:0/252/4/0/0/252  2.535%        | 
+ | Other 25.125%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Earthquake 99.063%                     | 
+ | Ice Shard 81.400%                      | 
+ | Stealth Rock 61.224%                   | 
+ | Icicle Crash 46.097%                   | 
+ | Endeavor 30.231%                       | 
+ | Knock Off 20.043%                      | 
+ | Superpower 19.401%                     | 
+ | Stone Edge 13.109%                     | 
+ | Rock Slide  7.459%                     | 
+ | Avalanche  4.296%                      | 
+ | Other 17.677%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Kyurem-Black +2.430%                   | 
+ | Lapras +1.220%                         | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Kyurem-Black                           | 
+ +----------------------------------------+ 
+ | Raw count: 11601                       | 
+ | Avg. weight: 0.598398940056            | 
+ | Viability Ceiling: 87                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Teravolt 100.000%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Choice Scarf 36.133%                   | 
+ | Life Orb 32.019%                       | 
+ | Icium Z 11.891%                        | 
+ | Choice Band  3.453%                    | 
+ | Leftovers  3.432%                      | 
+ | Assault Vest  3.287%                   | 
+ | Babiri Berry  1.875%                   | 
+ | Power Herb  1.386%                     | 
+ | Dragonium Z  1.047%                    | 
+ | Expert Belt  0.849%                    | 
+ | Other  4.629%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Naive:0/4/0/252/0/252 22.616%          | 
+ | Naive:0/252/0/4/0/252 22.327%          | 
+ | Adamant:252/252/0/0/4/0  8.185%        | 
+ | Jolly:0/252/0/0/4/252  4.244%          | 
+ | Naughty:0/252/0/4/0/252  2.527%        | 
+ | Modest:252/0/0/252/4/0  2.511%         | 
+ | Other 37.590%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Fusion Bolt 91.162%                    | 
+ | Earth Power 57.734%                    | 
+ | Ice Beam 55.938%                       | 
+ | Outrage 49.627%                        | 
+ | Iron Head 32.427%                      | 
+ | Roost 21.925%                          | 
+ | Hidden Power Fire 19.110%              | 
+ | Dragon Claw 13.312%                    | 
+ | Freeze Shock 12.983%                   | 
+ | Blizzard  6.977%                       | 
+ | Draco Meteor  6.643%                   | 
+ | Stone Edge  5.838%                     | 
+ | Zen Headbutt  5.636%                   | 
+ | Rock Slide  3.743%                     | 
+ | Other 16.947%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Mamoswine +2.704%                      | 
+ | Lapras +0.953%                         | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Cloyster                               | 
+ +----------------------------------------+ 
+ | Raw count: 11353                       | 
+ | Avg. weight: 0.526984524507            | 
+ | Viability Ceiling: 87                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Skill Link 97.564%                     | 
+ | Shell Armor  1.868%                    | 
+ | Overcoat  0.568%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 43.400%                     | 
+ | White Herb 36.160%                     | 
+ | Waterium Z 11.390%                     | 
+ | Normalium Z  2.631%                    | 
+ | Leftovers  1.924%                      | 
+ | Other  4.494%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:0/252/0/0/4/252 28.503%        | 
+ | Naive:0/252/0/4/0/252 14.663%          | 
+ | Naughty:0/252/0/4/0/252  9.071%        | 
+ | Jolly:0/252/0/0/4/252  8.771%          | 
+ | Naive:0/112/0/144/0/252  5.849%        | 
+ | Jolly:0/252/4/0/0/252  4.612%          | 
+ | Other 28.531%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Shell Smash 96.667%                    | 
+ | Icicle Spear 95.417%                   | 
+ | Rock Blast 82.941%                     | 
+ | Hydro Pump 24.765%                     | 
+ | Liquidation 23.181%                    | 
+ | Ice Shard 21.376%                      | 
+ | Hidden Power Fire 15.016%              | 
+ | Razor Shell 12.754%                    | 
+ | Explosion  6.329%                      | 
+ | Rapid Spin  5.056%                     | 
+ | Other 16.499%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Sandslash-Alola                        | 
+ +----------------------------------------+ 
+ | Raw count: 12649                       | 
+ | Avg. weight: 0.470719056667            | 
+ | Viability Ceiling: 87                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Slush Rush 97.315%                     | 
+ | Snow Cloak  2.685%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Life Orb 54.502%                       | 
+ | Choice Band  8.115%                    | 
+ | Groundium Z  7.932%                    | 
+ | Icium Z  4.790%                        | 
+ | Focus Sash  3.214%                     | 
+ | Assault Vest  2.709%                   | 
+ | Leftovers  2.596%                      | 
+ | Rockium Z  2.356%                      | 
+ | Steelium Z  2.044%                     | 
+ | Light Clay  1.955%                     | 
+ | Occa Berry  1.243%                     | 
+ | Lum Berry  1.212%                      | 
+ | Rocky Helmet  0.843%                   | 
+ | Shuca Berry  0.767%                    | 
+ | Expert Belt  0.697%                    | 
+ | Air Balloon  0.681%                    | 
+ | Other  4.343%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Jolly:0/252/4/0/0/252 22.962%          | 
+ | Adamant:4/252/0/0/0/252 15.045%        | 
+ | Adamant:0/252/0/0/4/252 11.275%        | 
+ | Adamant:252/252/0/0/4/0  9.721%        | 
+ | Jolly:0/252/0/0/4/252  8.856%          | 
+ | Jolly:4/252/0/0/0/252  7.745%          | 
+ | Other 24.395%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Iron Head 91.552%                      | 
+ | Icicle Crash 87.364%                   | 
+ | Earthquake 85.125%                     | 
+ | Rapid Spin 50.055%                     | 
+ | Swords Dance 31.124%                   | 
+ | Knock Off  8.124%                      | 
+ | Rock Slide  6.934%                     | 
+ | Leech Life  6.363%                     | 
+ | Ice Punch  5.676%                      | 
+ | Brick Break  5.664%                    | 
+ | Aurora Veil  3.088%                    | 
+ | Other 18.932%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Ninetales-Alola +1.850%                | 
+ | Abomasnow +0.954%                      | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Weavile                                | 
+ +----------------------------------------+ 
+ | Raw count: 12006                       | 
+ | Avg. weight: 0.458415777519            | 
+ | Viability Ceiling: 87                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Pressure 82.237%                       | 
+ | Pickpocket 17.763%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Life Orb 51.302%                       | 
+ | Focus Sash 23.786%                     | 
+ | Choice Band  9.821%                    | 
+ | Choice Scarf  4.742%                   | 
+ | Icium Z  1.532%                        | 
+ | Nothing  1.507%                        | 
+ | Fightinium Z  1.000%                   | 
+ | Sitrus Berry  0.865%                   | 
+ | Darkinium Z  0.713%                    | 
+ | Other  4.733%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Jolly:0/252/0/0/4/252 77.024%          | 
+ | Jolly:4/252/0/0/0/252  7.375%          | 
+ | Adamant:0/252/0/0/4/252  2.962%        | 
+ | Jolly:0/252/4/0/0/252  2.229%          | 
+ | Adamant:4/252/0/0/0/252  2.155%        | 
+ | Jolly:0/252/0/0/0/252  1.886%          | 
+ | Other  6.369%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Knock Off 87.177%                      | 
+ | Icicle Crash 70.551%                   | 
+ | Ice Shard 68.501%                      | 
+ | Low Kick 50.926%                       | 
+ | Pursuit 20.705%                        | 
+ | Fake Out 19.396%                       | 
+ | Poison Jab 14.733%                     | 
+ | Swords Dance 13.068%                   | 
+ | Ice Punch 11.566%                      | 
+ | Brick Break 10.409%                    | 
+ | Taunt  8.253%                          | 
+ | Night Slash  7.030%                    | 
+ | Other 17.683%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Cryogonal +1.454%                      | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Avalugg                                | 
+ +----------------------------------------+ 
+ | Raw count: 7033                        | 
+ | Avg. weight: 0.54896401845             | 
+ | Viability Ceiling: 85                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Sturdy 66.507%                         | 
+ | Ice Body 31.799%                       | 
+ | Own Tempo  1.694%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Rocky Helmet 68.903%                   | 
+ | Leftovers 23.614%                      | 
+ | Iapapa Berry  2.137%                   | 
+ | Assault Vest  1.356%                   | 
+ | Other  3.990%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Impish:252/4/252/0/0/0 54.025%         | 
+ | Relaxed:252/4/252/0/0/0 14.931%        | 
+ | Impish:248/8/252/0/0/0  6.261%         | 
+ | Impish:252/0/252/0/4/0  4.579%         | 
+ | Relaxed:248/0/252/0/8/0  1.980%        | 
+ | Relaxed:252/0/252/0/4/0  1.641%        | 
+ | Other 16.583%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Recover 91.617%                        | 
+ | Rapid Spin 88.810%                     | 
+ | Avalanche 75.193%                      | 
+ | Earthquake 36.080%                     | 
+ | Toxic 33.284%                          | 
+ | Roar 32.308%                           | 
+ | Gyro Ball 22.754%                      | 
+ | Other 19.954%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Regice +1.645%                         | 
+ | Kyurem-Black +0.746%                   | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Lapras                                 | 
+ +----------------------------------------+ 
+ | Raw count: 5613                        | 
+ | Avg. weight: 0.504360748369            | 
+ | Viability Ceiling: 83                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Water Absorb 89.053%                   | 
+ | Shell Armor  7.742%                    | 
+ | Hydration  3.205%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Choice Specs 47.399%                   | 
+ | Leftovers 24.218%                      | 
+ | Assault Vest 16.605%                   | 
+ | Icium Z  3.026%                        | 
+ | Waterium Z  2.985%                     | 
+ | Lum Berry  1.053%                      | 
+ | Other  4.715%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Modest:248/0/0/252/8/0 17.211%         | 
+ | Modest:80/0/0/252/0/176 14.091%        | 
+ | Modest:0/0/0/252/4/252 12.457%         | 
+ | Calm:252/0/0/4/252/0  9.239%           | 
+ | Modest:252/0/0/252/4/0  8.787%         | 
+ | Modest:4/0/0/252/252/0  5.600%         | 
+ | Other 32.615%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Freeze-Dry 68.298%                     | 
+ | Surf 65.750%                           | 
+ | Hidden Power Fire 57.625%              | 
+ | Hydro Pump 36.089%                     | 
+ | Thunderbolt 27.328%                    | 
+ | Blizzard 17.840%                       | 
+ | Psychic 14.709%                        | 
+ | Protect 12.320%                        | 
+ | Heal Bell 11.396%                      | 
+ | Perish Song 10.515%                    | 
+ | Whirlpool 10.112%                      | 
+ | Ice Beam  8.966%                       | 
+ | Toxic  7.977%                          | 
+ | Ice Shard  6.517%                      | 
+ | Dragon Dance  5.938%                   | 
+ | Waterfall  5.353%                      | 
+ | Rain Dance  3.004%                     | 
+ | Drill Run  2.919%                      | 
+ | Avalanche  2.878%                      | 
+ | Rest  2.744%                           | 
+ | Thunder  2.689%                        | 
+ | Other 19.033%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Mamoswine +3.203%                      | 
+ | Kyurem-Black +2.247%                   | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Abomasnow-Mega                         | 
+ +----------------------------------------+ 
+ | Raw count: 6985                        | 
+ | Avg. weight: 0.368173131465            | 
+ | Viability Ceiling: 82                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Warning 100.000%                  | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Abomasite 100.000%                     | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Modest:248/0/0/252/8/0 11.019%         | 
+ | Adamant:248/252/0/0/8/0  8.800%        | 
+ | Rash:0/92/0/252/0/164  8.125%          | 
+ | Quiet:248/8/0/252/0/0  6.909%          | 
+ | Quiet:0/8/248/252/0/0  6.342%          | 
+ | Brave:248/252/0/8/0/0  6.031%          | 
+ | Other 52.774%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Blizzard 73.528%                       | 
+ | Ice Shard 57.146%                      | 
+ | Giga Drain 51.832%                     | 
+ | Earthquake 45.003%                     | 
+ | Wood Hammer 32.752%                    | 
+ | Focus Blast 23.941%                    | 
+ | Leech Seed 21.132%                     | 
+ | Energy Ball 15.585%                    | 
+ | Hidden Power Fire 11.967%              | 
+ | Swords Dance  8.662%                   | 
+ | Avalanche  7.135%                      | 
+ | Substitute  6.003%                     | 
+ | Protect  5.360%                        | 
+ | Shadow Ball  4.883%                    | 
+ | Seed Bomb  4.716%                      | 
+ | Brick Break  3.452%                    | 
+ | Synthesis  3.190%                      | 
+ | Water Pulse  3.144%                    | 
+ | Ice Punch  2.890%                      | 
+ | Other 17.679%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Walrein +3.570%                        | 
+ | Regice +2.599%                         | 
+ | Jynx +2.361%                           | 
+ | Articuno +0.972%                       | 
+ | Kyurem +0.877%                         | 
+ | Aurorus +0.874%                        | 
+ | Beartic +0.802%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Froslass                               | 
+ +----------------------------------------+ 
+ | Raw count: 6249                        | 
+ | Avg. weight: 0.395279019961            | 
+ | Viability Ceiling: 81                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Cursed Body 65.505%                    | 
+ | Snow Cloak 34.495%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 65.791%                     | 
+ | Choice Specs  6.937%                   | 
+ | Leftovers  5.573%                      | 
+ | Light Clay  5.013%                     | 
+ | Choice Scarf  3.317%                   | 
+ | Life Orb  3.031%                       | 
+ | Bright Powder  2.333%                  | 
+ | Ghostium Z  1.342%                     | 
+ | Icium Z  1.035%                        | 
+ | Rocky Helmet  0.747%                   | 
+ | Other  4.880%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Timid:0/0/0/252/4/252 42.031%          | 
+ | Timid:248/0/0/8/0/252 14.537%          | 
+ | Timid:4/0/0/252/0/252 11.869%          | 
+ | Timid:248/0/0/0/8/252  9.862%          | 
+ | Timid:0/0/0/252/0/252  2.845%          | 
+ | Timid:0/0/4/252/0/252  2.723%          | 
+ | Other 16.133%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Destiny Bond 73.886%                   | 
+ | Shadow Ball 52.951%                    | 
+ | Taunt 49.555%                          | 
+ | Spikes 43.108%                         | 
+ | Ice Beam 42.030%                       | 
+ | Will-O-Wisp 22.046%                    | 
+ | Thunder Wave 18.176%                   | 
+ | Thunderbolt 14.098%                    | 
+ | Psychic 13.609%                        | 
+ | Blizzard  9.675%                       | 
+ | Aurora Veil  9.576%                    | 
+ | Icy Wind  8.304%                       | 
+ | Hex  8.223%                            | 
+ | Frost Breath  3.972%                   | 
+ | Switcheroo  3.505%                     | 
+ | Toxic  3.371%                          | 
+ | Confuse Ray  3.069%                    | 
+ | Hidden Power Fire  3.023%              | 
+ | Other 17.823%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Aurorus +4.208%                        | 
+ | Glaceon +2.398%                        | 
+ | Piloswine +1.291%                      | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Glalie-Mega                            | 
+ +----------------------------------------+ 
+ | Raw count: 4329                        | 
+ | Avg. weight: 0.37229967559             | 
+ | Viability Ceiling: 75                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Refrigerate 100.000%                   | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Glalitite 100.000%                     | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Jolly:0/252/0/0/4/252 35.561%          | 
+ | Jolly:4/252/0/0/0/252 17.682%          | 
+ | Hasty:0/252/0/4/0/252 12.543%          | 
+ | Adamant:4/252/0/0/0/252  3.936%        | 
+ | Adamant:0/252/0/0/4/252  2.901%        | 
+ | Jolly:0/252/4/0/0/252  2.621%          | 
+ | Other 24.756%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Earthquake 76.880%                     | 
+ | Ice Shard 64.200%                      | 
+ | Explosion 62.836%                      | 
+ | Double-Edge 42.468%                    | 
+ | Return 28.056%                         | 
+ | Freeze-Dry 20.041%                     | 
+ | Crunch 19.514%                         | 
+ | Spikes 13.663%                         | 
+ | Iron Head  9.021%                      | 
+ | Taunt  8.101%                          | 
+ | Body Slam  5.639%                      | 
+ | Hidden Power Fire  4.549%              | 
+ | Dark Pulse  4.312%                     | 
+ | Blizzard  3.720%                       | 
+ | Frustration  3.438%                    | 
+ | Shadow Ball  3.136%                    | 
+ | Hyper Beam  3.020%                     | 
+ | Facade  2.975%                         | 
+ | Toxic  2.882%                          | 
+ | Ice Beam  2.785%                       | 
+ | Other 18.764%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Cryogonal +6.232%                      | 
+ | Articuno +3.322%                       | 
+ | Regice +2.316%                         | 
+ | Delibird +1.594%                       | 
+ | Abomasnow +1.150%                      | 
+ | Aurorus +0.802%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Rotom-Frost                            | 
+ +----------------------------------------+ 
+ | Raw count: 3360                        | 
+ | Avg. weight: 0.443153548926            | 
+ | Viability Ceiling: 81                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Levitate 100.000%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Choice Scarf 39.524%                   | 
+ | Leftovers 39.112%                      | 
+ | Life Orb  3.956%                       | 
+ | Choice Specs  3.105%                   | 
+ | Icium Z  2.939%                        | 
+ | Assault Vest  1.660%                   | 
+ | Electrium Z  1.388%                    | 
+ | Sitrus Berry  1.369%                   | 
+ | Iapapa Berry  1.349%                   | 
+ | Focus Sash  1.204%                     | 
+ | Other  4.395%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Timid:0/0/0/252/4/252 16.459%          | 
+ | Calm:252/0/0/4/252/0 15.126%           | 
+ | Modest:0/0/0/252/4/252 12.077%         | 
+ | Modest:4/0/0/252/0/252  8.564%         | 
+ | Calm:248/0/0/8/252/0  7.525%           | 
+ | Timid:0/0/0/252/0/252  6.773%          | 
+ | Other 33.477%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Volt Switch 68.895%                    | 
+ | Blizzard 63.262%                       | 
+ | Will-O-Wisp 56.682%                    | 
+ | Defog 48.833%                          | 
+ | Thunderbolt 33.172%                    | 
+ | Trick 28.714%                          | 
+ | Pain Split 26.169%                     | 
+ | Hidden Power Fire 16.126%              | 
+ | Discharge  8.299%                      | 
+ | Thunder  8.220%                        | 
+ | Shadow Ball  7.164%                    | 
+ | Toxic  4.587%                          | 
+ | Hex  4.258%                            | 
+ | Dark Pulse  3.978%                     | 
+ | Substitute  3.465%                     | 
+ | Other 18.175%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Piloswine +7.807%                      | 
+ | Vanilluxe +5.731%                      | 
+ | Jynx +3.938%                           | 
+ | Beartic +3.678%                        | 
+ | Cloyster +2.190%                       | 
+ | Dewgong +1.664%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Walrein                                | 
+ +----------------------------------------+ 
+ | Raw count: 3689                        | 
+ | Avg. weight: 0.373442814511            | 
+ | Viability Ceiling: 76                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Thick Fat 78.862%                      | 
+ | Ice Body 20.283%                       | 
+ | Oblivious  0.855%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Leftovers 52.643%                      | 
+ | Choice Specs 21.867%                   | 
+ | Assault Vest  9.669%                   | 
+ | Normalium Z  3.513%                    | 
+ | Waterium Z  3.308%                     | 
+ | Chesto Berry  1.823%                   | 
+ | Wiki Berry  1.342%                     | 
+ | Eject Button  1.068%                   | 
+ | Other  4.767%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Calm:252/0/0/4/252/0 15.054%           | 
+ | Modest:152/0/4/252/8/92  6.245%        | 
+ | Calm:248/0/8/0/252/0  6.216%           | 
+ | Calm:248/0/0/8/252/0  5.085%           | 
+ | Modest:0/0/0/252/4/252  5.017%         | 
+ | Modest:252/0/0/252/4/0  4.922%         | 
+ | Other 57.460%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Surf 69.791%                           | 
+ | Toxic 37.638%                          | 
+ | Hidden Power Fire 32.285%              | 
+ | Ice Beam 28.390%                       | 
+ | Blizzard 24.133%                       | 
+ | Super Fang 23.969%                     | 
+ | Protect 20.408%                        | 
+ | Roar 19.433%                           | 
+ | Rest 16.404%                           | 
+ | Signal Beam 13.400%                    | 
+ | Encore 10.325%                         | 
+ | Frost Breath  9.578%                   | 
+ | Waterfall  8.880%                      | 
+ | Stockpile  8.781%                      | 
+ | Avalanche  8.412%                      | 
+ | Hail  7.168%                           | 
+ | Sleep Talk  6.764%                     | 
+ | Aqua Ring  6.168%                      | 
+ | Earthquake  5.943%                     | 
+ | Rock Slide  4.500%                     | 
+ | Brine  4.058%                          | 
+ | Belly Drum  3.983%                     | 
+ | Whirlpool  3.454%                      | 
+ | Aqua Tail  2.865%                      | 
+ | Substitute  2.784%                     | 
+ | Ice Fang  2.757%                       | 
+ | Other 17.731%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Abomasnow-Mega +6.453%                 | 
+ | Crabominable +2.667%                   | 
+ | Piloswine +1.329%                      | 
+ | Silvally-Ice +1.162%                   | 
+ | Jynx +0.924%                           | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Aurorus                                | 
+ +----------------------------------------+ 
+ | Raw count: 2865                        | 
+ | Avg. weight: 0.342470996467            | 
+ | Viability Ceiling: 71                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Warning 81.292%                   | 
+ | Refrigerate 18.708%                    | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 28.252%                     | 
+ | Icy Rock 25.759%                       | 
+ | Assault Vest  9.086%                   | 
+ | Leftovers  8.824%                      | 
+ | Choice Specs  8.497%                   | 
+ | Choice Scarf  6.616%                   | 
+ | Life Orb  2.979%                       | 
+ | Rockium Z  2.253%                      | 
+ | Sitrus Berry  1.755%                   | 
+ | Chople Berry  1.360%                   | 
+ | Other  4.619%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Modest:252/0/0/252/4/0 29.341%         | 
+ | Modest:0/0/0/252/4/252 13.670%         | 
+ | Calm:252/0/0/4/252/0 13.063%           | 
+ | Timid:0/0/0/252/4/252 10.425%          | 
+ | Quiet:252/4/0/252/0/0  4.870%          | 
+ | Calm:252/0/4/0/252/0  3.391%           | 
+ | Other 25.240%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Blizzard 68.032%                       | 
+ | Stealth Rock 56.083%                   | 
+ | Freeze-Dry 51.219%                     | 
+ | Earth Power 47.657%                    | 
+ | Ancient Power 39.808%                  | 
+ | Thunder Wave 17.074%                   | 
+ | Hyper Voice 16.809%                    | 
+ | Flash Cannon 15.367%                   | 
+ | Thunderbolt 12.912%                    | 
+ | Encore 12.712%                         | 
+ | Discharge  8.491%                      | 
+ | Psychic  7.460%                        | 
+ | Haze  5.689%                           | 
+ | Calm Mind  4.673%                      | 
+ | Rest  3.437%                           | 
+ | Dark Pulse  3.187%                     | 
+ | Dragon Tail  2.816%                    | 
+ | Hidden Power Fire  2.787%              | 
+ | Aqua Tail  1.931%                      | 
+ | Ice Beam  1.900%                       | 
+ | Other 19.958%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Froslass +10.702%                      | 
+ | Abomasnow +7.255%                      | 
+ | Beartic +4.767%                        | 
+ | Glaceon +3.199%                        | 
+ | Abomasnow-Mega +2.300%                 | 
+ | Glalie-Mega +1.754%                    | 
+ | Articuno +1.142%                       | 
+ | Delibird +0.811%                       | 
+ | Crabominable +0.778%                   | 
+ | Dewgong +0.652%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Piloswine                              | 
+ +----------------------------------------+ 
+ | Raw count: 1647                        | 
+ | Avg. weight: 0.538125804959            | 
+ | Viability Ceiling: 85                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Thick Fat 97.434%                      | 
+ | Snow Cloak  1.325%                     | 
+ | Oblivious  1.241%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Eviolite 99.368%                       | 
+ | Other  0.632%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:252/252/0/0/4/0 16.456%        | 
+ | Sassy:252/0/84/0/172/0 13.592%         | 
+ | Careful:252/0/4/0/252/0  7.788%        | 
+ | Impish:252/4/252/0/0/0  7.493%         | 
+ | Careful:252/4/0/0/252/0  6.322%        | 
+ | Adamant:176/92/0/0/240/0  5.435%       | 
+ | Other 42.914%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Earthquake 80.981%                     | 
+ | Ice Shard 77.296%                      | 
+ | Stealth Rock 73.518%                   | 
+ | Toxic 35.922%                          | 
+ | Stone Edge 20.498%                     | 
+ | Protect 18.487%                        | 
+ | Roar 17.388%                           | 
+ | Stomping Tantrum 16.270%               | 
+ | Rock Slide 15.048%                     | 
+ | Avalanche 14.809%                      | 
+ | Icicle Crash  7.806%                   | 
+ | Rest  5.854%                           | 
+ | Other 16.122%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Rotom-Frost +13.180%                   | 
+ | Beartic +12.560%                       | 
+ | Vanilluxe +8.242%                      | 
+ | Froslass +4.181%                       | 
+ | Walrein +2.448%                        | 
+ | Avalugg +1.062%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Vanilluxe                              | 
+ +----------------------------------------+ 
+ | Raw count: 2507                        | 
+ | Avg. weight: 0.361083154553            | 
+ | Viability Ceiling: 73                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Warning 90.969%                   | 
+ | Ice Body  6.014%                       | 
+ | Weak Armor  3.017%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Icy Rock 28.332%                       | 
+ | Choice Scarf 24.897%                   | 
+ | Choice Specs 13.813%                   | 
+ | Life Orb  8.876%                       | 
+ | Assault Vest  8.452%                   | 
+ | Leftovers  4.403%                      | 
+ | Focus Sash  1.920%                     | 
+ | Never-Melt Ice  1.864%                 | 
+ | Icium Z  1.801%                        | 
+ | Nothing  1.332%                        | 
+ | Other  4.309%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Modest:252/0/0/252/4/0 20.627%         | 
+ | Modest:0/0/0/252/4/252 16.689%         | 
+ | Timid:0/0/0/252/4/252 15.314%          | 
+ | Hardy:0/0/0/0/0/0 13.650%              | 
+ | Modest:0/0/0/252/0/252  4.661%         | 
+ | Calm:4/0/0/252/252/0  3.022%           | 
+ | Other 26.037%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Blizzard 87.341%                       | 
+ | Freeze-Dry 79.531%                     | 
+ | Flash Cannon 72.660%                   | 
+ | Hidden Power Fire 24.445%              | 
+ | Hidden Power Ground 21.069%            | 
+ | Signal Beam 14.359%                    | 
+ | Autotomize 14.306%                     | 
+ | Rain Dance 10.700%                     | 
+ | Water Pulse  9.054%                    | 
+ | Explosion  8.373%                      | 
+ | Ice Beam  6.758%                       | 
+ | Toxic  6.149%                          | 
+ | Taunt  4.653%                          | 
+ | Magic Coat  4.551%                     | 
+ | Hidden Power Electric  4.382%          | 
+ | Protect  3.325%                        | 
+ | Icy Wind  3.308%                       | 
+ | Ice Shard  3.206%                      | 
+ | Hidden Power Fighting  2.540%          | 
+ | Other 19.291%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Beartic +18.447%                       | 
+ | Rotom-Frost +9.099%                    | 
+ | Piloswine +7.835%                      | 
+ | Glaceon +3.668%                        | 
+ | Regice +3.248%                         | 
+ | Crabominable +0.781%                   | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Beartic                                | 
+ +----------------------------------------+ 
+ | Raw count: 2436                        | 
+ | Avg. weight: 0.362225891075            | 
+ | Viability Ceiling: 78                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Slush Rush 94.177%                     | 
+ | Snow Cloak  4.508%                     | 
+ | Swift Swim  1.315%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Life Orb 38.463%                       | 
+ | Rockium Z 15.072%                      | 
+ | Choice Band 14.756%                    | 
+ | Icium Z 10.968%                        | 
+ | Assault Vest  4.200%                   | 
+ | Fightinium Z  3.538%                   | 
+ | Weakness Policy  3.171%                | 
+ | Wide Lens  1.920%                      | 
+ | Leftovers  1.685%                      | 
+ | Never-Melt Ice  0.887%                 | 
+ | White Herb  0.887%                     | 
+ | Other  4.453%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:0/252/0/0/4/252 21.828%        | 
+ | Jolly:0/252/0/0/0/252 16.897%          | 
+ | Jolly:0/252/0/0/4/252 14.452%          | 
+ | Adamant:252/252/0/0/4/0 13.139%        | 
+ | Jolly:4/252/0/0/0/252 10.452%          | 
+ | Jolly:0/252/4/0/0/252  5.649%          | 
+ | Other 17.583%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Icicle Crash 81.551%                   | 
+ | Superpower 54.901%                     | 
+ | Play Rough 54.251%                     | 
+ | Stone Edge 48.248%                     | 
+ | Aqua Jet 43.822%                       | 
+ | Swords Dance 43.393%                   | 
+ | Brick Break 16.379%                    | 
+ | Ice Punch 14.714%                      | 
+ | Night Slash 10.412%                    | 
+ | Rock Slide  6.805%                     | 
+ | Low Kick  4.221%                       | 
+ | Shadow Claw  3.646%                    | 
+ | Other 17.657%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Vanilluxe +19.091%                     | 
+ | Piloswine +12.539%                     | 
+ | Abomasnow +9.529%                      | 
+ | Rotom-Frost +6.151%                    | 
+ | Aurorus +5.414%                        | 
+ | Abomasnow-Mega +2.638%                 | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Glaceon                                | 
+ +----------------------------------------+ 
+ | Raw count: 2730                        | 
+ | Avg. weight: 0.323483317147            | 
+ | Viability Ceiling: 69                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Ice Body 53.190%                       | 
+ | Snow Cloak 46.810%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Choice Specs 30.296%                   | 
+ | Leftovers 27.776%                      | 
+ | Choice Scarf  9.883%                   | 
+ | Assault Vest  4.770%                   | 
+ | Light Clay  4.757%                     | 
+ | Weakness Policy  4.357%                | 
+ | Normalium Z  4.215%                    | 
+ | Life Orb  3.268%                       | 
+ | Icium Z  1.701%                        | 
+ | Bright Powder  1.289%                  | 
+ | Sitrus Berry  1.276%                   | 
+ | Icy Rock  1.045%                       | 
+ | Rocky Helmet  0.837%                   | 
+ | Other  4.530%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Modest:252/0/0/252/4/0 23.184%         | 
+ | Bold:252/0/252/4/0/0 15.908%           | 
+ | Modest:0/0/4/252/0/252 13.006%         | 
+ | Timid:0/0/0/252/4/252  6.361%          | 
+ | Modest:252/0/4/252/0/0  4.519%         | 
+ | Bold:252/0/252/0/4/0  3.740%           | 
+ | Other 33.282%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Shadow Ball 66.072%                    | 
+ | Blizzard 54.203%                       | 
+ | Ice Beam 51.025%                       | 
+ | Hidden Power Fire 29.568%              | 
+ | Wish 27.587%                           | 
+ | Toxic 18.283%                          | 
+ | Protect 17.342%                        | 
+ | Signal Beam 17.196%                    | 
+ | Water Pulse 16.747%                    | 
+ | Hidden Power Fighting 15.055%          | 
+ | Heal Bell 13.863%                      | 
+ | Frost Breath 13.456%                   | 
+ | Aurora Veil 10.935%                    | 
+ | Hidden Power Ground  8.370%            | 
+ | Hail  5.168%                           | 
+ | Substitute  4.680%                     | 
+ | Celebrate  4.215%                      | 
+ | Ice Shard  3.884%                      | 
+ | Hyper Voice  3.345%                    | 
+ | Other 19.007%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Froslass +6.443%                       | 
+ | Vanilluxe +3.681%                      | 
+ | Regice +3.469%                         | 
+ | Aurorus +3.405%                        | 
+ | Abomasnow +3.086%                      | 
+ | Articuno +2.037%                       | 
+ | Crabominable +1.692%                   | 
+ | Silvally-Ice +1.364%                   | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Regice                                 | 
+ +----------------------------------------+ 
+ | Raw count: 2459                        | 
+ | Avg. weight: 0.338576320413            | 
+ | Viability Ceiling: 82                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Ice Body 61.324%                       | 
+ | Clear Body 38.676%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Leftovers 47.634%                      | 
+ | Assault Vest 22.500%                   | 
+ | Weakness Policy  8.681%                | 
+ | Fightinium Z  5.316%                   | 
+ | Icium Z  2.306%                        | 
+ | Icy Rock  2.090%                       | 
+ | Light Clay  1.819%                     | 
+ | Chesto Berry  1.489%                   | 
+ | Life Orb  1.338%                       | 
+ | Psychium Z  1.308%                     | 
+ | Sitrus Berry  1.127%                   | 
+ | Other  4.392%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Calm:252/0/0/4/252/0 15.724%           | 
+ | Modest:248/0/0/252/8/0 10.304%         | 
+ | Modest:252/0/0/252/4/0  6.625%         | 
+ | Modest:0/0/0/252/4/252  5.997%         | 
+ | Mild:96/4/0/252/0/156  4.138%          | 
+ | Calm:252/0/4/0/252/0  3.932%           | 
+ | Other 53.281%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Ice Beam 59.148%                       | 
+ | Thunderbolt 48.358%                    | 
+ | Focus Blast 33.490%                    | 
+ | Blizzard 29.850%                       | 
+ | Toxic 28.501%                          | 
+ | Flash Cannon 22.314%                   | 
+ | Rock Polish 20.677%                    | 
+ | Aurora Veil 17.247%                    | 
+ | Protect 16.669%                        | 
+ | Charge Beam 14.408%                    | 
+ | Rest 12.111%                           | 
+ | Hidden Power Fire 11.867%              | 
+ | Hail 10.664%                           | 
+ | Ancient Power 10.458%                  | 
+ | Thunder Wave  8.649%                   | 
+ | Sleep Talk  6.841%                     | 
+ | Hidden Power Ground  5.722%            | 
+ | Explosion  4.280%                      | 
+ | Zap Cannon  4.274%                     | 
+ | Earthquake  3.930%                     | 
+ | Frost Breath  3.629%                   | 
+ | Rock Slide  3.077%                     | 
+ | Substitute  2.625%                     | 
+ | Signal Beam  2.137%                    | 
+ | Other 19.074%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Abomasnow-Mega +7.736%                 | 
+ | Avalugg +6.423%                        | 
+ | Glalie-Mega +4.728%                    | 
+ | Glaceon +3.710%                        | 
+ | Vanilluxe +3.484%                      | 
+ | Crabominable +3.012%                   | 
+ | Articuno +2.923%                       | 
+ | Kyurem +1.408%                         | 
+ | Silvally-Ice +0.659%                   | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Articuno                               | 
+ +----------------------------------------+ 
+ | Raw count: 2297                        | 
+ | Avg. weight: 0.340882248699            | 
+ | Viability Ceiling: 81                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Cloak 56.314%                     | 
+ | Pressure 43.686%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Leftovers 44.003%                      | 
+ | Life Orb 16.725%                       | 
+ | Flyinium Z 11.054%                     | 
+ | Choice Specs  4.716%                   | 
+ | Icium Z  3.406%                        | 
+ | Assault Vest  2.688%                   | 
+ | Bright Powder  2.364%                  | 
+ | Choice Scarf  2.283%                   | 
+ | Sitrus Berry  2.155%                   | 
+ | Waterium Z  1.491%                     | 
+ | Charti Berry  1.299%                   | 
+ | Lax Incense  0.865%                    | 
+ | Icy Rock  0.785%                       | 
+ | Focus Sash  0.763%                     | 
+ | Kee Berry  0.738%                      | 
+ | Other  4.664%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Calm:248/0/0/8/252/0 12.624%           | 
+ | Calm:252/0/0/4/252/0 11.262%           | 
+ | Modest:4/0/0/252/0/252  9.460%         | 
+ | Timid:0/0/0/252/4/252  8.324%          | 
+ | Modest:252/0/0/252/4/0  6.270%         | 
+ | Modest:248/0/0/252/8/0  4.875%         | 
+ | Other 47.184%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Hurricane 70.660%                      | 
+ | Roost 58.837%                          | 
+ | Freeze-Dry 53.580%                     | 
+ | Ice Beam 31.356%                       | 
+ | Defog 30.019%                          | 
+ | Toxic 22.060%                          | 
+ | Blizzard 19.524%                       | 
+ | Substitute 11.997%                     | 
+ | Tailwind 10.905%                       | 
+ | Agility  9.796%                        | 
+ | Hail  8.731%                           | 
+ | Hidden Power Fire  7.677%              | 
+ | U-turn  7.095%                         | 
+ | Extrasensory  6.785%                   | 
+ | Aurora Veil  6.600%                    | 
+ | Ancient Power  5.002%                  | 
+ | Signal Beam  4.965%                    | 
+ | Icy Wind  3.661%                       | 
+ | Water Pulse  3.463%                    | 
+ | Ice Shard  3.460%                      | 
+ | Heal Bell  2.608%                      | 
+ | Air Cutter  2.402%                     | 
+ | Other 18.817%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Glalie-Mega +7.077%                    | 
+ | Crabominable +4.083%                   | 
+ | Delibird +3.959%                       | 
+ | Kyurem +3.185%                         | 
+ | Regice +3.106%                         | 
+ | Abomasnow +2.927%                      | 
+ | Abomasnow-Mega +2.888%                 | 
+ | Glaceon +2.324%                        | 
+ | Silvally-Ice +2.063%                   | 
+ | Aurorus +1.311%                        | 
+ | Dewgong +0.616%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Cryogonal                              | 
+ +----------------------------------------+ 
+ | Raw count: 1682                        | 
+ | Avg. weight: 0.370088260507            | 
+ | Viability Ceiling: 74                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Levitate 100.000%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Leftovers 46.858%                      | 
+ | Never-Melt Ice 27.790%                 | 
+ | Icium Z  5.650%                        | 
+ | Assault Vest  4.972%                   | 
+ | Light Clay  3.471%                     | 
+ | Life Orb  2.868%                       | 
+ | Rocky Helmet  2.103%                   | 
+ | Focus Sash  1.314%                     | 
+ | Other  4.974%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Timid:0/0/0/252/4/252 33.169%          | 
+ | Hasty:248/8/0/0/0/252  5.856%          | 
+ | Timid:0/0/4/252/0/252  5.266%          | 
+ | Timid:248/0/0/8/0/252  5.109%          | 
+ | Timid:252/0/0/4/0/252  4.381%          | 
+ | Modest:252/0/0/252/4/0  3.825%         | 
+ | Other 42.394%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Freeze-Dry 81.345%                     | 
+ | Rapid Spin 74.566%                     | 
+ | Recover 70.371%                        | 
+ | Toxic 51.048%                          | 
+ | Ice Beam 18.187%                       | 
+ | Haze 16.017%                           | 
+ | Flash Cannon 12.385%                   | 
+ | Defog 11.930%                          | 
+ | Signal Beam  8.460%                    | 
+ | Hidden Power Fire  7.653%              | 
+ | Reflect  7.388%                        | 
+ | Aurora Veil  6.068%                    | 
+ | Knock Off  5.901%                      | 
+ | Blizzard  3.134%                       | 
+ | Hail  2.807%                           | 
+ | Hidden Power Ground  2.425%            | 
+ | Protect  2.267%                        | 
+ | Other 18.049%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Glalie-Mega +16.444%                   | 
+ | Weavile +12.312%                       | 
+ | Jynx +3.210%                           | 
+ | Cloyster +2.226%                       | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Jynx                                   | 
+ +----------------------------------------+ 
+ | Raw count: 1268                        | 
+ | Avg. weight: 0.427821626001            | 
+ | Viability Ceiling: 83                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Dry Skin 54.712%                       | 
+ | Oblivious 28.578%                      | 
+ | Forewarn 16.709%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Normalium Z 30.708%                    | 
+ | Focus Sash 21.802%                     | 
+ | Choice Scarf 19.103%                   | 
+ | Leftovers  7.212%                      | 
+ | Choice Specs  6.946%                   | 
+ | Life Orb  4.975%                       | 
+ | Wide Lens  2.101%                      | 
+ | Psychium Z  1.564%                     | 
+ | Sitrus Berry  1.164%                   | 
+ | Other  4.426%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Timid:0/0/0/252/4/252 55.678%          | 
+ | Timid:0/0/4/252/0/252 13.700%          | 
+ | Timid:4/0/0/252/0/252  8.773%          | 
+ | Modest:0/0/0/252/4/252  3.916%         | 
+ | Modest:252/0/0/252/4/0  2.988%         | 
+ | Timid:0/0/0/252/0/252  2.440%          | 
+ | Other 12.505%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Ice Beam 60.665%                       | 
+ | Lovely Kiss 58.615%                    | 
+ | Psychic 57.576%                        | 
+ | Nasty Plot 39.270%                     | 
+ | Psyshock 35.768%                       | 
+ | Energy Ball 26.207%                    | 
+ | Focus Blast 18.576%                    | 
+ | Blizzard 16.976%                       | 
+ | Shadow Ball 16.126%                    | 
+ | Calm Mind  8.108%                      | 
+ | Hidden Power Fire  7.915%              | 
+ | Trick Room  7.806%                     | 
+ | Substitute  5.808%                     | 
+ | Heal Bell  5.439%                      | 
+ | Grass Knot  4.631%                     | 
+ | Frost Breath  4.332%                   | 
+ | Aurora Veil  3.904%                    | 
+ | Hail  2.885%                           | 
+ | Other 19.393%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Abomasnow-Mega +11.550%                | 
+ | Rotom-Frost +10.779%                   | 
+ | Cryogonal +3.817%                      | 
+ | Walrein +2.650%                        | 
+ | Crabominable +2.648%                   | 
+ | Dewgong +1.585%                        | 
+ | Vanilluxe +0.901%                      | 
+ | Delibird +0.564%                       | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Abomasnow                              | 
+ +----------------------------------------+ 
+ | Raw count: 1198                        | 
+ | Avg. weight: 0.287394804796            | 
+ | Viability Ceiling: 74                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Warning 99.958%                   | 
+ | Soundproof  0.042%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Icy Rock 42.329%                       | 
+ | Choice Scarf 10.880%                   | 
+ | Eject Button  9.952%                   | 
+ | Focus Sash  6.337%                     | 
+ | Leftovers  5.992%                      | 
+ | Fightinium Z  4.731%                   | 
+ | Assault Vest  4.691%                   | 
+ | Choice Specs  4.623%                   | 
+ | Life Orb  4.135%                       | 
+ | Nothing  1.065%                        | 
+ | Big Root  0.904%                       | 
+ | Other  4.361%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Mild:0/252/0/252/0/4 11.139%           | 
+ | Quiet:252/4/0/252/0/0 10.857%          | 
+ | Modest:248/0/252/0/8/0  9.952%         | 
+ | Modest:248/0/0/252/8/0  5.396%         | 
+ | Modest:0/0/0/252/4/252  5.355%         | 
+ | Adamant:248/252/0/0/8/0  4.892%        | 
+ | Other 52.408%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Blizzard 84.217%                       | 
+ | Giga Drain 47.264%                     | 
+ | Ice Shard 39.718%                      | 
+ | Wood Hammer 38.748%                    | 
+ | Earthquake 31.019%                     | 
+ | Hidden Power Fire 27.841%              | 
+ | Focus Blast 21.966%                    | 
+ | Energy Ball 18.862%                    | 
+ | Brick Break 12.347%                    | 
+ | Leech Seed 12.220%                     | 
+ | Hail 10.848%                           | 
+ | Toxic 10.341%                          | 
+ | Frost Breath  5.896%                   | 
+ | Ice Punch  4.466%                      | 
+ | Avalanche  4.061%                      | 
+ | Protect  3.559%                        | 
+ | Rock Slide  3.402%                     | 
+ | Ice Beam  2.745%                       | 
+ | Swords Dance  2.124%                   | 
+ | Other 18.355%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Beartic +24.062%                       | 
+ | Aurorus +20.406%                       | 
+ | Sandslash-Alola +15.086%               | 
+ | Glaceon +7.820%                        | 
+ | Articuno +6.543%                       | 
+ | Glalie-Mega +5.396%                    | 
+ | Crabominable +3.134%                   | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Kyurem                                 | 
+ +----------------------------------------+ 
+ | Raw count: 792                         | 
+ | Avg. weight: 0.373223529402            | 
+ | Viability Ceiling: 74                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Pressure 100.000%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Choice Specs 45.849%                   | 
+ | Choice Scarf 27.345%                   | 
+ | Assault Vest  8.507%                   | 
+ | Leftovers  6.293%                      | 
+ | Icium Z  3.860%                        | 
+ | Life Orb  2.268%                       | 
+ | Quick Claw  1.272%                     | 
+ | Other  4.607%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Timid:4/0/0/252/0/252 27.330%          | 
+ | Modest:252/0/0/252/4/0 17.328%         | 
+ | Timid:0/0/0/252/4/252 14.426%          | 
+ | Modest:4/0/0/252/0/252  6.920%         | 
+ | Modest:0/0/0/252/4/252  5.692%         | 
+ | Modest:0/0/0/252/0/252  5.557%         | 
+ | Other 22.748%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Earth Power 73.967%                    | 
+ | Ice Beam 70.055%                       | 
+ | Draco Meteor 62.836%                   | 
+ | Hidden Power Fire 46.395%              | 
+ | Flash Cannon 31.437%                   | 
+ | Psychic 20.366%                        | 
+ | Focus Blast 19.404%                    | 
+ | Blizzard 16.818%                       | 
+ | Dragon Pulse 12.831%                   | 
+ | Outrage  7.753%                        | 
+ | Hyper Voice  6.316%                    | 
+ | Dragon Tail  4.403%                    | 
+ | Glaciate  3.619%                       | 
+ | Hidden Power Electric  3.259%          | 
+ | Roost  2.867%                          | 
+ | Other 17.675%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Articuno +8.397%                       | 
+ | Abomasnow-Mega +7.198%                 | 
+ | Sneasel +4.934%                        | 
+ | Bergmite +4.903%                       | 
+ | Crabominable +4.329%                   | 
+ | Regice +3.922%                         | 
+ | Glalie-Mega +1.674%                    | 
+ | Glaceon +1.310%                        | 
+ | Walrein +1.267%                        | 
+ | Silvally-Ice +0.553%                   | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Crabominable                           | 
+ +----------------------------------------+ 
+ | Raw count: 972                         | 
+ | Avg. weight: 0.267244885884            | 
+ | Viability Ceiling: 74                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Iron Fist 84.619%                      | 
+ | Hyper Cutter 10.613%                   | 
+ | Anger Point  4.768%                    | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Assault Vest 36.520%                   | 
+ | Choice Band 17.027%                    | 
+ | Life Orb 16.103%                       | 
+ | Leftovers  7.166%                      | 
+ | Focus Sash  4.104%                     | 
+ | Rocky Helmet  3.934%                   | 
+ | Choice Scarf  3.840%                   | 
+ | Muscle Band  3.167%                    | 
+ | Quick Claw  1.368%                     | 
+ | Never-Melt Ice  1.209%                 | 
+ | Nothing  1.022%                        | 
+ | Other  4.539%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:252/252/0/0/4/0 44.407%        | 
+ | Adamant:0/252/0/0/4/252 11.901%        | 
+ | Brave:252/252/4/0/0/0  9.627%          | 
+ | Adamant:0/252/252/0/4/0  4.898%        | 
+ | Brave:192/252/0/0/64/0  2.858%         | 
+ | Jolly:0/252/0/0/4/252  2.332%          | 
+ | Other 23.977%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Ice Hammer 61.892%                     | 
+ | Drain Punch 59.606%                    | 
+ | Thunder Punch 50.085%                  | 
+ | Crabhammer 43.252%                     | 
+ | Earthquake 36.447%                     | 
+ | Close Combat 34.340%                   | 
+ | Ice Punch 27.437%                      | 
+ | Stone Edge 25.794%                     | 
+ | Power-Up Punch 13.550%                 | 
+ | Brick Break  7.089%                    | 
+ | Avalanche  5.958%                      | 
+ | Bulk Up  4.671%                        | 
+ | Dizzy Punch  4.438%                    | 
+ | Zen Headbutt  4.279%                   | 
+ | Iron Head  3.797%                      | 
+ | Other 17.365%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Walrein +13.864%                       | 
+ | Articuno +12.170%                      | 
+ | Regice +9.515%                         | 
+ | Glaceon +5.642%                        | 
+ | Silvally-Ice +5.392%                   | 
+ | Jynx +5.301%                           | 
+ | Kyurem +4.889%                         | 
+ | Abomasnow +4.147%                      | 
+ | Abomasnow-Mega +3.070%                 | 
+ | Aurorus +2.668%                        | 
+ | Vanilluxe +2.535%                      | 
+ | Sealeo +0.612%                         | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Silvally-Ice                           | 
+ +----------------------------------------+ 
+ | Raw count: 443                         | 
+ | Avg. weight: 0.432288255312            | 
+ | Viability Ceiling: 69                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | RKS System 100.000%                    | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Ice Memory 100.000%                    | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Modest:252/0/0/252/4/0 33.646%         | 
+ | Timid:128/0/0/128/0/252 12.067%        | 
+ | Bold:252/0/252/0/4/0  9.218%           | 
+ | Timid:0/0/0/252/4/252  6.761%          | 
+ | Adamant:4/252/0/0/0/252  4.646%        | 
+ | Adamant:252/252/0/0/4/0  4.432%        | 
+ | Other 29.231%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Ice Beam 74.882%                       | 
+ | Parting Shot 63.122%                   | 
+ | Flamethrower 59.651%                   | 
+ | Defog 34.538%                          | 
+ | Thunderbolt 28.900%                    | 
+ | Thunder Wave 25.160%                   | 
+ | Multi-Attack 19.022%                   | 
+ | Magic Coat  9.810%                     | 
+ | Surf  8.933%                           | 
+ | Swords Dance  7.849%                   | 
+ | Flame Charge  6.846%                   | 
+ | Roar  5.929%                           | 
+ | Toxic  5.564%                          | 
+ | Air Slash  5.376%                      | 
+ | U-turn  5.040%                         | 
+ | Iron Head  4.765%                      | 
+ | Rock Slide  3.506%                     | 
+ | Shadow Ball  3.399%                    | 
+ | Crunch  2.865%                         | 
+ | Dragon Claw  2.486%                    | 
+ | Fire Fang  2.479%                      | 
+ | Other 19.879%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Articuno +8.523%                       | 
+ | Walrein +8.461%                        | 
+ | Crabominable +7.399%                   | 
+ | Glaceon +6.418%                        | 
+ | Regice +2.951%                         | 
+ | Kyurem +0.900%                         | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Dewgong                                | 
+ +----------------------------------------+ 
+ | Raw count: 461                         | 
+ | Avg. weight: 0.2105168552              | 
+ | Viability Ceiling: 67                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Thick Fat 65.428%                      | 
+ | Ice Body 31.851%                       | 
+ | Hydration  2.721%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Leftovers 61.377%                      | 
+ | Chesto Berry 13.198%                   | 
+ | Sitrus Berry  5.130%                   | 
+ | Rocky Helmet  4.792%                   | 
+ | Assault Vest  4.539%                   | 
+ | Icy Rock  3.569%                       | 
+ | Life Orb  1.767%                       | 
+ | Choice Band  1.304%                    | 
+ | Other  4.324%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Impish:248/8/252/0/0/0 20.540%         | 
+ | Timid:0/0/252/0/252/4 13.198%          | 
+ | Adamant:252/252/0/0/4/0 10.228%        | 
+ | Calm:248/0/240/0/20/0  5.967%          | 
+ | Modest:252/0/0/252/4/0  4.560%         | 
+ | Modest:248/0/0/252/8/0  4.509%         | 
+ | Other 40.997%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Toxic 48.534%                          | 
+ | Aqua Jet 42.808%                       | 
+ | Perish Song 37.116%                    | 
+ | Ice Beam 32.919%                       | 
+ | Surf 31.517%                           | 
+ | Ice Shard 24.326%                      | 
+ | Encore 22.544%                         | 
+ | Protect 19.554%                        | 
+ | Fake Out 18.711%                       | 
+ | Rest 17.229%                           | 
+ | Whirlpool 16.096%                      | 
+ | Drill Run 14.303%                      | 
+ | Blizzard 12.191%                       | 
+ | Liquidation 10.025%                    | 
+ | Hail  5.865%                           | 
+ | Stockpile  5.284%                      | 
+ | Hidden Power Ground  4.453%            | 
+ | Signal Beam  3.292%                    | 
+ | Substitute  3.178%                     | 
+ | Aqua Ring  3.149%                      | 
+ | Rain Dance  3.078%                     | 
+ | Curse  2.808%                          | 
+ | Icicle Spear  2.287%                   | 
+ | Other 18.733%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Rotom-Frost +24.784%                   | 
+ | Jynx +8.609%                           | 
+ | Aurorus +6.343%                        | 
+ | Articuno +4.867%                       | 
+ | Delibird +2.572%                       | 
+ | Glalie +1.057%                         | 
+ | Cryogonal +0.720%                      | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Delibird                               | 
+ +----------------------------------------+ 
+ | Raw count: 294                         | 
+ | Avg. weight: 0.209705038748            | 
+ | Viability Ceiling: 63                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Vital Spirit 78.381%                   | 
+ | Hustle 21.270%                         | 
+ | Insomnia  0.349%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 63.185%                     | 
+ | Wide Lens 15.693%                      | 
+ | Choice Scarf  6.649%                   | 
+ | Leftovers  3.917%                      | 
+ | Never-Melt Ice  2.005%                 | 
+ | Normalium Z  1.981%                    | 
+ | Charti Berry  1.954%                   | 
+ | Other  4.615%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Timid:252/0/4/0/0/252 52.226%          | 
+ | Jolly:0/252/0/0/4/252 12.422%          | 
+ | Adamant:4/252/0/0/0/252  7.763%        | 
+ | Hardy:0/0/0/0/0/0  6.924%              | 
+ | Jolly:4/252/0/0/0/252  4.460%          | 
+ | Timid:252/0/0/0/4/252  2.599%          | 
+ | Other 13.606%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Rapid Spin 64.601%                     | 
+ | Spikes 57.756%                         | 
+ | Hail 55.998%                           | 
+ | Toxic 48.730%                          | 
+ | Destiny Bond 29.778%                   | 
+ | Fake Out 21.409%                       | 
+ | Ice Shard 19.620%                      | 
+ | Drill Peck 14.013%                     | 
+ | Brick Break 12.777%                    | 
+ | Ice Punch 10.125%                      | 
+ | Gunk Shot  9.838%                      | 
+ | Aurora Veil  9.485%                    | 
+ | Icy Wind  6.950%                       | 
+ | Defog  6.445%                          | 
+ | Substitute  5.084%                     | 
+ | Present  3.980%                        | 
+ | Ice Beam  3.674%                       | 
+ | Other 19.737%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Articuno +50.055%                      | 
+ | Glalie-Mega +41.660%                   | 
+ | Sandslash-Alola +19.818%               | 
+ | Aurorus +12.692%                       | 
+ | Jynx +4.777%                           | 
+ | Dewgong +4.068%                        | 
+ | Glaceon +3.082%                        | 
+ | Rotom-Frost +3.010%                    | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Sneasel                                | 
+ +----------------------------------------+ 
+ | Raw count: 64                          | 
+ | Avg. weight: 0.43743162475             | 
+ | Viability Ceiling: 61                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Pickpocket 56.732%                     | 
+ | Inner Focus 34.759%                    | 
+ | Keen Eye  8.509%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 56.369%                     | 
+ | Life Orb 27.251%                       | 
+ | Choice Band  7.805%                    | 
+ | Black Glasses  3.920%                  | 
+ | Other  4.655%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:4/252/0/0/0/252 63.415%        | 
+ | Lonely:0/252/0/4/0/252 16.511%         | 
+ | Jolly:0/252/0/0/4/252 13.611%          | 
+ | Hasty:0/252/0/4/0/252  4.283%          | 
+ | Other  2.179%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Knock Off 78.462%                      | 
+ | Ice Shard 71.213%                      | 
+ | Icicle Crash 63.392%                   | 
+ | Swords Dance 56.028%                   | 
+ | Ice Beam 16.874%                       | 
+ | Agility 16.511%                        | 
+ | Avalanche 16.511%                      | 
+ | Feint Attack 16.511%                   | 
+ | Fake Out 13.611%                       | 
+ | Ice Punch 13.261%                      | 
+ | Pursuit 10.253%                        | 
+ | False Swipe  3.920%                    | 
+ | Icy Wind  3.920%                       | 
+ | Other 19.532%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Bergmite +53.230%                      | 
+ | Kyurem +52.027%                        | 
+ | Abomasnow-Mega +41.338%                | 
+ | Articuno +6.524%                       | 
+ | Glaceon +5.195%                        | 
+ | Cloyster +3.606%                       | 
+ | Abomasnow +2.216%                      | 
+ | Glalie +1.238%                         | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Bergmite                               | 
+ +----------------------------------------+ 
+ | Raw count: 26                          | 
+ | Avg. weight: 0.585167734738            | 
+ | Viability Ceiling: 61                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Sturdy 98.220%                         | 
+ | Ice Body  1.780%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Choice Band 98.220%                    | 
+ | Other  1.780%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:4/252/252/0/0/0 98.220%        | 
+ | Other  1.780%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Avalanche 100.000%                     | 
+ | Bite 98.220%                           | 
+ | Gyro Ball 98.220%                      | 
+ | Stone Edge 98.220%                     | 
+ | Other  5.341%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Sneasel +97.982%                       | 
+ | Kyurem +95.599%                        | 
+ | Abomasnow-Mega +74.968%                | 
+ | Cloyster +45.038%                      | 
+ | Mamoswine +31.556%                     | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Sealeo                                 | 
+ +----------------------------------------+ 
+ | Raw count: 112                         | 
+ | Avg. weight: 0.105544631335            | 
+ | Viability Ceiling: 60                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Thick Fat 85.923%                      | 
+ | Ice Body 13.308%                       | 
+ | Oblivious  0.769%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Eviolite 97.855%                       | 
+ | Other  2.145%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Calm:248/0/8/0/252/0 25.473%           | 
+ | Sassy:252/0/4/0/252/0 16.069%          | 
+ | Calm:248/0/168/0/92/0 12.030%          | 
+ | Relaxed:252/0/92/0/164/0 10.580%       | 
+ | Modest:248/0/96/56/108/0 10.034%       | 
+ | Bold:252/0/124/0/131/0  8.343%         | 
+ | Other 17.471%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Toxic 73.926%                          | 
+ | Rest 65.537%                           | 
+ | Super Fang 52.375%                     | 
+ | Stockpile 34.578%                      | 
+ | Whirlpool 29.542%                      | 
+ | Encore 22.610%                         | 
+ | Roar 20.812%                           | 
+ | Sleep Talk 18.377%                     | 
+ | Aqua Ring 15.799%                      | 
+ | Protect 12.930%                        | 
+ | Curse  8.910%                          | 
+ | Waterfall  8.874%                      | 
+ | Hail  6.951%                           | 
+ | Surf  5.267%                           | 
+ | Attract  5.131%                        | 
+ | Other 18.380%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Regice +20.187%                        | 
+ | Froslass +15.462%                      | 
+ | Crabominable +13.594%                  | 
+ | Cryogonal +11.945%                     | 
+ | Glalie-Mega +9.499%                    | 
+ | Aurorus +8.514%                        | 
+ | Walrein +5.816%                        | 
+ | Beartic +5.002%                        | 
+ | Vanilluxe +3.805%                      | 
+ | Jynx +3.377%                           | 
+ | Glaceon +3.051%                        | 
+ | Articuno +2.443%                       | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Glalie                                 | 
+ +----------------------------------------+ 
+ | Raw count: 77                          | 
+ | Avg. weight: 0.139733737481            | 
+ | Viability Ceiling: 53                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Ice Body 75.005%                       | 
+ | Inner Focus 24.995%                    | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Leftovers 26.179%                      | 
+ | Icium Z 21.517%                        | 
+ | Darkinium Z 10.190%                    | 
+ | King's Rock  9.122%                    | 
+ | Galladite  7.953%                      | 
+ | Salac Berry  6.930%                    | 
+ | Choice Band  5.713%                    | 
+ | Icicle Plate  3.979%                   | 
+ | Nothing  3.456%                        | 
+ | Other  4.961%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Serious:0/248/0/244/0/16 16.228%       | 
+ | Timid:0/0/4/252/0/252 10.190%          | 
+ | Naive:252/0/4/0/0/252 10.029%          | 
+ | Hardy:252/0/0/4/252/0  9.122%          | 
+ | Lax:252/0/168/0/88/0  8.145%           | 
+ | Hardy:0/0/0/0/0/0  6.935%              | 
+ | Other 39.351%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Freeze-Dry 43.854%                     | 
+ | Ice Beam 39.587%                       | 
+ | Explosion 36.152%                      | 
+ | Spikes 31.053%                         | 
+ | Dark Pulse 27.320%                     | 
+ | Avalanche 25.010%                      | 
+ | Blizzard 23.676%                       | 
+ | Earthquake 21.613%                     | 
+ | Ice Fang 17.821%                       | 
+ | Toxic 17.267%                          | 
+ | Crunch 15.246%                         | 
+ | Iron Head 12.219%                      | 
+ | Hail 11.413%                           | 
+ | Taunt 10.329%                          | 
+ | Signal Beam  9.122%                    | 
+ | Rest  8.145%                           | 
+ | Ice Shard  7.317%                      | 
+ | Super Fang  6.930%                     | 
+ | Gyro Ball  6.411%                      | 
+ | Rollout  6.321%                        | 
+ | Substitute  5.732%                     | 
+ | Other 17.463%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Abomasnow-Mega +35.054%                | 
+ | Froslass +23.286%                      | 
+ | Articuno +16.006%                      | 
+ | Abomasnow +15.759%                     | 
+ | Aurorus +15.405%                       | 
+ | Glaceon +15.385%                       | 
+ | Beartic +12.901%                       | 
+ | Dewgong +9.579%                        | 
+ | Crabominable +7.595%                   | 
+ | Sneasel +3.219%                        | 
+ | Vulpix-Alola +2.299%                   | 
+ | Sealeo +2.232%                         | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Vulpix-Alola                           | 
+ +----------------------------------------+ 
+ | Raw count: 12                          | 
+ | Avg. weight: 0.393370277466            | 
+ | Viability Ceiling: 60                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Warning 71.262%                   | 
+ | Snow Cloak 28.738%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Eviolite 47.389%                       | 
+ | Leftovers 37.866%                      | 
+ | Light Clay  9.398%                     | 
+ | Power Band  5.336%                     | 
+ | Other  0.010%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Modest:248/0/0/252/8/0 47.389%         | 
+ | Modest:252/0/0/252/4/0 37.866%         | 
+ | Timid:52/0/0/200/0/240  9.398%         | 
+ | Lax:0/0/0/0/0/0  5.336%                | 
+ | Other  0.010%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Aurora Veil 76.598%                    | 
+ | Blizzard 71.251%                       | 
+ | Ice Beam 66.605%                       | 
+ | Moonblast 61.279%                      | 
+ | Freeze-Dry 45.326%                     | 
+ | Extrasensory 23.987%                   | 
+ | Hail 23.402%                           | 
+ | Pain Split 16.808%                     | 
+ | Other 14.745%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Sandshrew-Alola +54.411%               | 
+ | Swinub +37.859%                        | 
+ | Snorunt +37.849%                       | 
+ | Vanillite +37.849%                     | 
+ | Smoochum +37.836%                      | 
+ | Beartic +20.665%                       | 
+ | Vanilluxe +15.282%                     | 
+ | Walrein +11.073%                       | 
+ | Snover +9.375%                         | 
+ | Glalie-Mega +9.268%                    | 
+ | Amaura +7.183%                         | 
+ | Vanillish +7.175%                      | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Sandshrew-Alola                        | 
+ +----------------------------------------+ 
+ | Raw count: 16                          | 
+ | Avg. weight: 0.276269437776            | 
+ | Viability Ceiling: 60                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Slush Rush 67.718%                     | 
+ | Snow Cloak 32.282%                     | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Eviolite 56.447%                       | 
+ | Focus Sash 40.437%                     | 
+ | Other  3.116%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Brave:248/252/0/0/8/0 40.437%          | 
+ | Relaxed:248/8/252/0/0/0 21.635%        | 
+ | Adamant:248/252/0/0/8/0 10.771%        | 
+ | Jolly:36/236/36/0/0/196 10.037%        | 
+ | Lonely:0/0/0/0/0/0  8.474%             | 
+ | Hardy:0/0/0/0/0/0  7.542%              | 
+ | Other  1.104%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Gyro Ball 62.072%                      | 
+ | Earthquake 59.244%                     | 
+ | Iron Head 59.120%                      | 
+ | Icicle Crash 49.083%                   | 
+ | Rapid Spin 21.646%                     | 
+ | Stealth Rock 21.635%                   | 
+ | Super Fang 21.635%                     | 
+ | Ice Punch 19.245%                      | 
+ | Aurora Veil 10.647%                    | 
+ | Ice Ball 10.647%                       | 
+ | Icicle Spear 10.037%                   | 
+ | Swords Dance 10.037%                   | 
+ | Brick Break  9.568%                    | 
+ | Facade  8.474%                         | 
+ | Hidden Power Fire  8.474%              | 
+ | Other 18.437%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Vulpix-Alola +58.108%                  | 
+ | Swinub +40.430%                        | 
+ | Snorunt +40.420%                       | 
+ | Vanillite +40.420%                     | 
+ | Smoochum +40.408%                      | 
+ | Regice +24.242%                        | 
+ | Snover +10.013%                        | 
+ | Amaura +7.671%                         | 
+ | Vanillish +7.662%                      | 
+ | Silvally-Ice +6.748%                   | 
+ | Articuno +1.651%                       | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Smoochum                               | 
+ +----------------------------------------+ 
+ | Raw count: 11                          | 
+ | Avg. weight: 0.391571149738            | 
+ | Viability Ceiling: 60                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Oblivious 58.491%                      | 
+ | Forewarn 41.509%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 99.989%                     | 
+ | Other  0.011%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Mild:252/4/0/252/0/0 92.874%           | 
+ | Gentle:252/4/0/0/252/0  7.115%         | 
+ | Other  0.011%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Fake Out 99.989%                       | 
+ | Psychic 92.885%                        | 
+ | Shadow Ball 51.387%                    | 
+ | Body Slam 51.376%                      | 
+ | Ice Beam 48.624%                       | 
+ | Nasty Plot 41.498%                     | 
+ | Other 14.240%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Swinub +41.492%                        | 
+ | Snorunt +41.481%                       | 
+ | Vanillite +41.481%                     | 
+ | Sandshrew-Alola +41.467%               | 
+ | Vulpix-Alola +41.467%                  | 
+ | Aurorus +37.276%                       | 
+ | Silvally-Ice +5.389%                   | 
+ | Weavile +3.467%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Snover                                 | 
+ +----------------------------------------+ 
+ | Raw count: 3                           | 
+ | Avg. weight: 0.814550237558            | 
+ | Viability Ceiling: 71                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Warning 100.000%                  | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Icy Rock 81.845%                       | 
+ | Eviolite 18.155%                       | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:252/252/0/0/0/0 81.845%        | 
+ | Quiet:36/104/40/184/120/24 18.155%     | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Ice Shard 100.000%                     | 
+ | Grass Whistle 81.845%                  | 
+ | Swords Dance 81.845%                   | 
+ | Wood Hammer 81.845%                    | 
+ | Blizzard 18.155%                       | 
+ | Giga Drain 18.155%                     | 
+ | Other 18.155%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Froslass +77.790%                      | 
+ | Beartic +73.771%                       | 
+ | Mamoswine +33.337%                     | 
+ | Sandslash-Alola +28.211%               | 
+ | Sandshrew-Alola +18.113%               | 
+ | Vulpix-Alola +18.113%                  | 
+ | Regice +10.726%                        | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Swinub                                 | 
+ +----------------------------------------+ 
+ | Raw count: 20                          | 
+ | Avg. weight: 0.090784643941            | 
+ | Viability Ceiling: 60                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Thick Fat 98.471%                      | 
+ | Oblivious  1.529%                      | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Eviolite 98.444%                       | 
+ | Other  1.556%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Adamant:248/252/0/0/8/0 98.444%        | 
+ | Other  1.556%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Ice Shard 100.000%                     | 
+ | Earthquake 98.471%                     | 
+ | Icicle Crash 98.471%                   | 
+ | Stealth Rock 98.444%                   | 
+ | Other  4.614%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Smoochum +98.431%                      | 
+ | Sandshrew-Alola +98.429%               | 
+ | Vulpix-Alola +98.428%                  | 
+ | Snorunt +98.427%                       | 
+ | Vanillite +98.427%                     | 
+ | Vanillite +98.427%                     | | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Snorunt                                | 
+ +----------------------------------------+ 
+ | Raw count: 5                           | 
+ | Avg. weight: 0.357818176388            | 
+ | Viability Ceiling: 60                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Inner Focus 99.908%                    | 
+ | Ice Body  0.092%                       | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Focus Sash 99.908%                     | 
+ | Other  0.092%                          | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Lonely:248/252/0/8/0/0 99.908%         | 
+ | Other  0.092%                          | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Ice Beam 100.000%                      | 
+ | Avalanche 99.908%                      | 
+ | Ice Fang 99.908%                       | 
+ | Shadow Ball 99.908%                    | 
+ | Other  0.276%                          | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Vanillite +99.890%                     | 
+ | Swinub +99.890%                        | 
+ | Smoochum +99.868%                      | 
+ | Sandshrew-Alola +99.866%               | 
+ | Vulpix-Alola +99.865%                  | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 
+ +----------------------------------------+ 
+ | Vanillite                              | 
+ +----------------------------------------+ 
+ | Raw count: 2                           | 
+ | Avg. weight: 0.893722053822            | 
+ | Viability Ceiling: 60                  | 
+ +----------------------------------------+ 
+ | Abilities                              | 
+ | Snow Cloak 100.000%                    | 
+ +----------------------------------------+ 
+ | Items                                  | 
+ | Life Orb 100.000%                      | 
+ +----------------------------------------+ 
+ | Spreads                                | 
+ | Quiet:248/8/0/252/0/0 100.000%         | 
+ +----------------------------------------+ 
+ | Moves                                  | 
+ | Autotomize 100.000%                    | 
+ | Blizzard 100.000%                      | 
+ | Explosion 100.000%                     | 
+ | Hidden Power Dark 100.000%             | 
+ +----------------------------------------+ 
+ | Teammates                              | 
+ | Snorunt +99.983%                       | 
+ | Swinub +99.982%                        | 
+ | Smoochum +99.960%                      | 
+ | Sandshrew-Alola +99.958%               | 
+ | Vulpix-Alola +99.958%                  | 
+ +----------------------------------------+ 
+ | Checks and Counters                    | 
+ +----------------------------------------+ 

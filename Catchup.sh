@@ -3,7 +3,7 @@
 #(or from run to run)
 
 logFolder=logs
-month="2019-05"
+month="2018-02"
 rm -r Raw
 mkdir Raw
 

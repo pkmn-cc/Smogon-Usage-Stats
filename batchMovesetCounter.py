@@ -155,7 +155,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 			#number of times species is KOed by s + number of times species switches out against s over number of times
 			#either (or both) is switched out or KOed (don't count u-turn KOs or force-outs)
 			n=sum(matchup[0:6])
-			if n>0: # DEBUG
+			if n>20: # DEBUG
 				p=float(matchup[0]+matchup[3])/n
 				d=math.sqrt(p*(1.0-p)/n)
 				#cc[s]=p-4*d #using a CRE-style calculation
@@ -245,8 +245,8 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 					n=sum(matchup[0:6])
 					score=float(table[i][1][1])-4.0*table[i][1][2]
                                         # DEBUG
-					# if score < 0.5:
-						# break
+                                        if score < 0.5:
+                                                break
 					
 					line = u' | %s %6.3f (%3.2f\u00b1%3.2f)' % (table[i][0],100.0*score,100.0*table[i][1][1],100*table[i][1][2])
 					while len(line) < tablewidth+1:
