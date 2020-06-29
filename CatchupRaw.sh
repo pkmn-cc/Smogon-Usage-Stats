@@ -2,11 +2,11 @@
 #This file is included solely to be used as an example. It will likely need to be heavily modified from month to month
 #(or from run to run)
 
-logFolder=/home/ps/main/logs
-month="2019-12"
+logFolder=logs
+month="2020-05"
 mkdir Raw
 
-for d in {1..24}
+for d in {1..31}
 do
 	day=$(printf "%02d" $d)
 	for i in $logFolder/$month/*

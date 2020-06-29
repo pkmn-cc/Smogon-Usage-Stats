@@ -43,7 +43,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 	weights = []
 	rawCount = 0
 	gxes={}
-	
+
 	for line in raw:
 		movesets = json.loads(line)
 		for moveset in movesets:
@@ -87,7 +87,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 
 			if moveset['nature'] in ['serious','docile','quirky','bashful'] or moveset['nature'] not in keyLookup:
 				nature = 'hardy'
-		
+
 			#round the EVs
 			for stat in moveset['evs'].keys():
 				ev=moveset['evs'][stat]
@@ -95,7 +95,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 					stat = 1
 					moveset['evs']['stat']=0
 					continue
-			
+
 				if stat == 'hp':
 					n=-1
 				else:
@@ -106,7 +106,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 					if x != statFormula(baseStats[keyify(species)][stat],moveset['level'],n,moveset['ivs'][stat],ev-1):
 						break
 					ev = ev-1
-			
+
 			moveset['evs'][stat]=ev
 
 			spread = keyLookup[moveset['nature']]+':'
@@ -144,7 +144,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 		if s not in usage.keys():
 			teammates[s]=0.0
 		else:
-			teammates[s]=teammates[s]-(count*usage[s])
+			teammates[s]=teammates[s]-(round(count, 10) * round(usage[s], 7))
 
 	#checks and counters
 	cc={}
@@ -154,7 +154,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 			#number of times species is KOed by s + number of times species switches out against s over number of times
 			#either (or both) is switched out or KOed (don't count u-turn KOs or force-outs)
 			n=sum(matchup[0:6])
-			if n>20:
+			if n>20: # DEBUG
 				p=float(matchup[0]+matchup[3])/n
 				d=math.sqrt(p*(1.0-p)/n)
 				#cc[s]=p-4*d #using a CRE-style calculation
@@ -199,7 +199,7 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 	print line
 	line = ' | Avg. weight: '
 	if len(weights)>0:
-		line = line+str(sum(weights)/len(weights))
+		line = line+str(round(sum(weights)/len(weights), 12))
 	else:
 		line = line+'---'
 	while len(line) < tablewidth+2:
@@ -228,11 +228,11 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 			else:
 				table.append([keyLookup[i],stuff[x][i]])
 		if x is 'Checks and Counters':
-			table=sorted(table, key=lambda table:-(table[1][1]-4.0*table[1][2]))
+			table=sorted(table, key=lambda table:(-(table[1][1]-4.0*table[1][2]), table))
 		else:
-			table=sorted(table, key=lambda table:-table[1])
+			table=sorted(table, key=lambda table:(-table[1], table[0]))
 		total = 0.0
-		for i in range(len(table)): 
+		for i in range(len(table)):
 			if (total > .95 and x is not 'Abilities') or (x is 'Abilities' and i>5) or (x is 'Spreads' and i>5) or (x is 'Teammates' and i>11) or (x is 'Checks and Counters' and i>11):
 				if x is 'Moves':
 					line = ' | %s %6.3f%%' % ('Other',400.0*(1.0-total))
@@ -243,9 +243,9 @@ def movesetCounter(filename, cutoff, teamtype, usage):
 					matchup = encounterMatrix[species][table[i][0]]
 					n=sum(matchup[0:6])
 					score=float(table[i][1][1])-4.0*table[i][1][2]
-					if score < 0.5:
+					if score < 0.5: # DEBUG
 						break
-					
+
 					line = u' | %s %6.3f (%3.2f\u00b1%3.2f)' % (table[i][0],100.0*score,100.0*table[i][1][1],100*table[i][1][2])
 					while len(line) < tablewidth+1:
 						line = line + ' '
@@ -316,7 +316,7 @@ for poke in usage.keys():
 if sys.argv[1] in ['randombattle','challengecup','challengecup1v1','seasonal']:
 	pokes=sorted(pokes)
 else:
-	pokes=sorted(pokes, key=lambda pokes:-pokes[1])
+	pokes=sorted(pokes, key=lambda pokes:(-pokes[1], pokes[0]))
 
 chaos = {'info': {'metagame': str(sys.argv[1]), 'cutoff': cutoff, 'cutoff deviation': cutoffdeviation, 'team type': teamtype, 'number of battles': nBattles},'data':{}}
 for poke in pokes:
@@ -333,4 +333,4 @@ if not os.path.exists(d):
 	os.makedirs(d)
 file=open(filename,'w')
 file.write(json.dumps(chaos))
-file.close()	
+file.close()

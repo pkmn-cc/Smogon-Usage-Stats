@@ -31,7 +31,7 @@ def weighting(rating,deviation,cutoff):
 #if (r2,d2)=(1500,350) this becomes the GXE formula
 def victoryChance(r1,d1,r2,d2):
 	C=3.0*pow(math.log(10.0),2.0)/pow(400.0*math.pi,2)
-	return 1.0 / (1.0 + pow(10.0,(r2-r1)/400.0/math.sqrt(1.0+C*(pow(d1,2.0)+pow(d2,2.0))))) 
+	return 1.0 / (1.0 + pow(10.0,(r2-r1)/400.0/math.sqrt(1.0+C*(pow(d1,2.0)+pow(d2,2.0)))))
 
 def readTable(filename):
 	file = open(filename)
@@ -48,12 +48,12 @@ def readTable(filename):
 			break
 		name = line[2][1:]
 
-		while name[len(name)-1] == ' ': 
+		while name[len(name)-1] == ' ':
 			#remove extraneous spaces
 			name = name[0:len(name)-1]
 
 		pct = line[3][1:line[3].index('%')]
-	
+
 		usage[name]=float(pct)/100.0
 
 	return usage,nBattles
@@ -241,3 +241,13 @@ non6v6Formats = [
 	'gen71v1',
 	'gen7alolafriendly',
 ]
+
+if __name__ == '__main__':
+			 all = {}
+			 for name in aliases.keys():
+							 id = keyify(name)
+							 for alias in aliases[name]:
+											 key = keyify(alias)
+											 if key != id:
+															 all[keyify(alias)] = id
+			 print json.dumps(all, indent=2)

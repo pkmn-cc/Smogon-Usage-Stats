@@ -27,8 +27,8 @@ def usageToTiers(usage):
 			OU.append([i,usage[i][0]])
 		if usage[i][1] > 0.0:
 			UU.append([i,usage[i][1]])
-	OU = sorted(OU, key=lambda OU:-OU[1])
-	UU = sorted(UU, key=lambda UU:-UU[1])
+	OU = sorted(OU, key=lambda OU:(-OU[1], OU[0]))
+	UU = sorted(UU, key=lambda UU:(-UU[1], UU[0]))
 	return (OU,UU)
 
 def raiseAndDrop(curTiers,usage,lowest,rise,drop):
@@ -207,7 +207,7 @@ def main(months):
 
 	(doublesOU,doublesUU) = usageToTiers(usageDoubles)
 	makeTable(doublesOU,"Doubles OU",keyLookup)
-		
+
 	newTiers['Doubles']=raiseAndDrop(curTiers['Doubles'],usageDoubles,'UU',rise,drop)
 	print ""
 	newUU = []
@@ -225,7 +225,7 @@ def main(months):
 	print ""
 	print ""
 	print "[size=5][b]Doubles NU[/b][/size]"
-	print "Doubles NU is an unofficial metagame that's apparently so unpopular there's not even enough interest to support a challenge-only format. Still, it's conceivable that someone will want to play it, and that person should have an unofficial banlist to refer to. So..." 
+	print "Doubles NU is an unofficial metagame that's apparently so unpopular there's not even enough interest to support a challenge-only format. Still, it's conceivable that someone will want to play it, and that person should have an unofficial banlist to refer to. So..."
 	makeTable(doublesUU,"Doubles UU",keyLookup)
 	dnuBanlist = []
 	for poke in usageDoubles.keys():

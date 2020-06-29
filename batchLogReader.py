@@ -63,7 +63,7 @@ def getTeamsFromLog(log,mrayAllowed):
 			evs = {'hp': 0, 'atk': 0, 'def': 0, 'spa': 0, 'spd': 0, 'spe': 0}
 			if 'evs' in log[team][i].keys():
 				for stat in log[team][i]['evs']:
-					evs[stat]=int(log[team][i]['evs'][stat])	
+					evs[stat]=int(log[team][i]['evs'][stat])
 			ivs = {'hp': 31, 'atk': 31, 'def': 31, 'spa': 31, 'spd': 31, 'spe': 31}
 			if 'ivs' in log[team][i].keys():
 				for stat in log[team][i]['ivs']:
@@ -76,7 +76,7 @@ def getTeamsFromLog(log,mrayAllowed):
 				moves.append('')
 			for j in range(len(moves)): #make all moves lower-case and space-free
 				old = moves[j]
-				try: 
+				try:
 					moves[j] = keyify(moves[j])
 				except TypeError:
 					moves[j] = ''
@@ -101,7 +101,7 @@ def getTeamsFromLog(log,mrayAllowed):
 				ability='deltastream'
 			elif species == 'greninja' and ability == 'battlebond':
 				species = 'greninjaash'
-			else: 
+			else:
 				for mega in megas:
 					if [species,item] == mega[:2]:
 						species = species+'mega'
@@ -121,7 +121,7 @@ def getTeamsFromLog(log,mrayAllowed):
 				if species in aliases[s]:
 					species = s
 					break
-			try:	
+			try:
 				species=keyLookup[keyify(species)]
 			except:
 				sys.stderr.write(species+' not in keyLookup.\n')
@@ -131,7 +131,7 @@ def getTeamsFromLog(log,mrayAllowed):
 				if species in aliases[s]:
 					species = s
 					break
-			
+
 			teams[team].append({
 				'species': species,
 				'nature': nature,
@@ -154,9 +154,9 @@ def LogReader(filename,tier,movesets,ratings):
 	mrayAllowed = tier not in ['ubers','battlefactory','megamons', 'gen6ubers', 'gen7ubers', 'gen7pokebankubers']
 
 	file = open(filename)
-	raw = file.readline()
+	raw = file.read()
 	file.close()
-	
+
 	if raw=='"log"': #https://github.com/Zarel/Pokemon-Showdown/commit/92a4f85e0abe9d3a9febb0e6417a7710cabdc303
 		return False
 	try:
@@ -176,7 +176,7 @@ def LogReader(filename,tier,movesets,ratings):
 	#if tier not in ['challengecup1vs1','doublesvgc2013dev','smogondoubles','1v1','gbusingles','globalshowdown']:
 	#	longEnough = False
 	#	if 'log' not in log.keys():
-	#		if int(log['turns']) > 5: 
+	#		if int(log['turns']) > 5:
 	#			longEnough = True
 	#	else:
 	#		for line in log['log']:
@@ -189,7 +189,7 @@ def LogReader(filename,tier,movesets,ratings):
 	if 'turns' not in log.keys():
 		print filename+' has no turn count'
 		return False
-		
+
 
 	#get info on the trainers & pokes involved
 	ts = []
@@ -225,11 +225,11 @@ def LogReader(filename,tier,movesets,ratings):
 							#	sys.stderr.write('Problem in '+filename+':\n')
 							#	sys.stderr.write(i[0]+'['+j+']='+str(log[i[0]][j])+'\n')
 							#	return False
-								
-							
+
+
 				#gxe = round(10000 / (1 + pow(10.0,(((1500 - rpr)) * math.pi / math.sqrt(3 * pow(math.log(10.0),2.0) * pow(rprd,2.0) + 2500 * (64 * pow(math.pi,2.0) + 147 * pow(math.log(10.0),2))))))) / 100
 				#acre= rpr-1.4079126393*rprd
-				#not used: 'w','l','t','sigma','rptime','rpsigma','lacre','oldacre','oldrdacre'	
+				#not used: 'w','l','t','sigma','rptime','rpsigma','lacre','oldacre','oldrdacre'
 	else:
 		for player in [log['p1'],log['p2']]:
 			if player not in ratings.keys():
@@ -251,12 +251,12 @@ def LogReader(filename,tier,movesets,ratings):
 		trainer = log[team[:2]]
 		for poke in teams[team]:
 			ts.append([trainer,poke['species']])
-		
+
 		if len(log[team]) < 6:
 			for i in range(6-len(log[team])):
 				ts.append([trainer,'empty'])
 		analysis = analyzeTeam(teams[team])
-		
+
 		if analysis is None:
 			sys.stderr.write('Problem with '+filename+'\n')
 			return False
@@ -318,7 +318,7 @@ def LogReader(filename,tier,movesets,ratings):
 				nicks.append("p2: "+log['p2team'][i]['name'])
 			else:
 				nicks.append("p2: "+log['p2team'][i]['species'])
-		else:		
+		else:
 			nicks.append("p1: empty")
 
 	if ts[0][0] == ts[11][0]: #trainer battling him/herself? WTF?
@@ -393,7 +393,7 @@ def LogReader(filename,tier,movesets,ratings):
 						sys.stderr.write('(Pokemon not in ts) (1)\n')
 						sys.stderr.write(str([ts[0][0],species])+'\n')
 						return False
-			
+
 			if parsed_line[1] == 'switch' and parsed_line[2].startswith('p2'):
 				if len(parsed_line) < 4:
 					sys.stderr.write('Problem with '+filename+'\n')
@@ -408,7 +408,7 @@ def LogReader(filename,tier,movesets,ratings):
 				for s in aliases: #combine appearance-only variations and weird PS quirks
 					if species in aliases[s]:
 						species = s
-						break	
+						break
 
 				try:
 					active[1]=ts.index([ts[11][0],species])
@@ -484,7 +484,7 @@ def LogReader(filename,tier,movesets,ratings):
 				turnsOut[active[0]]=turnsOut[active[0]]+1
 				turnsOut[active[1]]=turnsOut[active[1]]+1
 
-			elif linetype in ["win","tie"]: 
+			elif linetype in ["win","tie"]:
 				#close out last matchup
 				if ko[0] or ko[1]: #if neither poke was KOed, match ended in forfeit, and we don't care
 					matchup = [ts[active[0]][1],ts[active[1]][1],12]
@@ -500,10 +500,10 @@ def LogReader(filename,tier,movesets,ratings):
 							mtemp=mtemp[:len(mtemp)-1]
 							matchup[2] = matchup[2] + 8	#8: poke1 was u-turn KOed
 											#9: poke2 was u-turn KOed
-						
+
 					mtemp.append(matchup)
 				matchups=matchups+mtemp
-			
+
 
 			elif linetype == "move": #check for Roar, etc.; U-Turn, etc.
 				hazard = False
@@ -515,11 +515,11 @@ def LogReader(filename,tier,movesets,ratings):
 					if line[6+3*spacelog:].startswith(nick):
 						if found: #the trainer was a d-bag
 							if len(nick) < len(found):
-								continue	
+								continue
 						found = nick
 				tempnicks = copy.copy(nicks)
 				while not found: #PS fucked up the names. We fix by shaving a character at a time off the nicknames
-					foundidx=-1	
+					foundidx=-1
 					for i in range(len(tempnicks)):
 						if len(tempnicks[i])>1:
 							tempnicks[i]=tempnicks[i][:len(tempnicks[i])-1]
@@ -543,7 +543,7 @@ def LogReader(filename,tier,movesets,ratings):
 							sys.stderr.write(line[6+3*spacelog:]+"\n")
 							sys.stderr.write(str(nicks)+"\n")
 							return False
-						
+
 				move = line[7+5*spacelog+len(found):string.find(line,"|",7+5*spacelog+len(found))-1*spacelog]
 				if move in ["Roar","Whirlwind","Circle Throw","Dragon Tail"]:
 					roar = True
@@ -563,7 +563,7 @@ def LogReader(filename,tier,movesets,ratings):
 				ko[p]=1
 				if switch[p]==1: #fainted on the same turn that it was switched in
 					fodder=True
-			
+
 				if uturn:
 					uturn=False
 					uturnko=True
@@ -635,14 +635,14 @@ def LogReader(filename,tier,movesets,ratings):
 				if linetype == "switch":
 					p=9+3*spacelog
 				else:
-					p=7+3*spacelog	
+					p=7+3*spacelog
 				switch[int(line[p])-1]=True
 
 				if switch[0] and switch[1] and not fodder: #need to revise previous matchup
 					matchup=mtemp[len(mtemp)-1]
 					matchup[2]=12
 					if (not ko[0]) and (not ko[1]): #double switch
-						matchup[2]=5 
+						matchup[2]=5
 					elif ko[0] and ko[1]: #double down
 						KOs[active[ko[0]]] = KOs[active[ko[0]]]+1
 						matchup[2]=2
@@ -668,7 +668,7 @@ def LogReader(filename,tier,movesets,ratings):
 							matchup[2]=matchup[2]+3	#6: poke1 was forced out
 										#7: poke2 was forced out
 					mtemp.append(matchup)
-		
+
 				#new matchup!
 				uturn = roar = fodder = False
 				hazard = True
@@ -733,9 +733,9 @@ def LogReader(filename,tier,movesets,ratings):
 	#totalKOs = sum(KOs)
 
 	writeme = {}
-	
+
 	writeme['p1'] = {'trainer':ts[0][0].encode('ascii','replace')}
-	
+
 	teamtags = teams['p1team'][len(teams['p1team'])-1]
 	for x in teamtags.keys():
 		writeme['p1'][x] = teamtags[x]
@@ -761,7 +761,7 @@ def LogReader(filename,tier,movesets,ratings):
 	writeme['turns']=int(log['turns'])
 	if 'endType' in log.keys():
 		writeme['endType']=log['endType']
-	
+
 	#outfile.write(lzma.compress(json.dumps(writeme))+'\n')
 	return writeme
 
@@ -812,7 +812,7 @@ def main(argv):
 		if x:
 			writeme.append(x)
 			count += 1
-			
+
 			if count % 10000 == 0:
 				outname = "Raw/"+tier#+".txt"
 				outfile=gzip.open(outname,'ab')
@@ -825,7 +825,7 @@ def main(argv):
 					d = os.path.dirname(outname)
 					if not os.path.exists(d):
 						os.makedirs(d)
-					msfile=gzip.open(outname,'ab')		
+					msfile=gzip.open(outname,'ab')
 					msfile.write(json.dumps(movesets[species]))
 					msfile.close()
 
@@ -843,7 +843,7 @@ def main(argv):
 			d = os.path.dirname(outname)
 			if not os.path.exists(d):
 				os.makedirs(d)
-			msfile=gzip.open(outname,'ab')		
+			msfile=gzip.open(outname,'ab')
 			msfile.write(json.dumps(movesets[species]))
 			msfile.close()
 

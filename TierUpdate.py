@@ -79,7 +79,7 @@ def main(months):
 				weight = 3.0
 		remaining -= weight
 
-		for j in xrange(len(usageTiers)):		
+		for j in xrange(len(usageTiers)):
 			n = {}
 			u = {}
 
@@ -93,7 +93,7 @@ def main(months):
 				except IOError:
 					pass
 			ntot = sum(n.values())
-			
+
 			for k in u:
 				for poke in u[k]:
 					if keyify(poke) not in usage:
@@ -108,7 +108,7 @@ def main(months):
 	RU = []
 	NU = []
 	PU = []
-	
+
 	for i in usage:
 		if usage[i][0] > 0.0:
 			OU.append([i,usage[i][0]])
@@ -121,11 +121,11 @@ def main(months):
 		if usage[i][4] > 0.0:
 			PU.append([i,usage[i][4]])
 
-	OU = sorted(OU, key=lambda OU:-OU[1])
-	UU = sorted(UU, key=lambda UU:-UU[1])
-	RU = sorted(RU, key=lambda RU:-RU[1])
-	NU = sorted(NU, key=lambda NU:-NU[1])
-	PU = sorted(PU, key=lambda PU:-PU[1])
+	OU = sorted(OU, key=lambda OU:(-OU[1], OU[0]))
+	UU = sorted(UU, key=lambda UU:(-UU[1], UU[0]))
+	RU = sorted(RU, key=lambda RU:(-RU[1], RU[0]))
+	NU = sorted(NU, key=lambda NU:(-NU[1], NU[0]))
+	PU = sorted(PU, key=lambda PU:(-PU[1], PU[0]))
 
 	makeTable(OU,"OU",keyLookup)
 	makeTable(UU,"UU",keyLookup)
@@ -167,7 +167,7 @@ def main(months):
 		if curTiers[poke] == 'UUBL' and poke not in newTiers.keys():
 			newTiers[poke] = 'UUBL'
 
-	
+
 	#next do the UU rises
 	for poke in curTiers.keys():
 		if poke not in usage:
@@ -191,7 +191,7 @@ def main(months):
 			continue
 		if curTiers[poke] == 'RUBL' and poke not in newTiers.keys():
 			newTiers[poke] = 'RUBL'
-	
+
 	#next do the RU rises
 	for poke in curTiers.keys():
 		if poke not in usage:
@@ -211,7 +211,7 @@ def main(months):
 	for poke in curTiers.keys():
 		if curTiers[poke] == 'NUBL' and poke not in newTiers.keys():
 			newTiers[poke] = 'NUBL'
-	
+
 	#next do the NU rises
 	for poke in curTiers.keys():
 		if poke not in usage:
@@ -268,7 +268,7 @@ def main(months):
 			newTiers[poke] = 'PUBL'
 
 	print ""
-	for poke in curTiers:
+	for poke in sorted(curTiers.keys()):
 		if newTiers[poke] == 'ZU' and poke in NFE:
 			continue
 		if curTiers[poke] != newTiers[poke]:

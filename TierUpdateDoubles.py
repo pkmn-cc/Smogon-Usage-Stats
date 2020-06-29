@@ -79,7 +79,7 @@ def main(months):
 				weight = 3.0
 		remaining -= weight
 
-		for j in xrange(len(usageTiers)):		
+		for j in xrange(len(usageTiers)):
 			n = {}
 			u = {}
 
@@ -93,7 +93,7 @@ def main(months):
 				except IOError:
 					pass
 			ntot = sum(n.values())
-			
+
 			for k in u:
 				for poke in u[k]:
 					if keyify(poke) not in usage:
@@ -105,15 +105,15 @@ def main(months):
 
 	DOU = []
 	DUU = []
-	
+
 	for i in usage:
 		if usage[i][0] > 0.0:
 			DOU.append([i,usage[i][0]])
 		if usage[i][1] > 0.0:
 			DUU.append([i,usage[i][1]])
 
-	DOU = sorted(DOU, key=lambda DOU:-DOU[1])
-	DUU = sorted(DUU, key=lambda DUU:-DUU[1])
+	DOU = sorted(DOU, key=lambda DOU:(-DOU[1], DOU[0]))
+	DUU = sorted(DUU, key=lambda DUU:(-DUU[1], DUU[0]))
 
 	makeTable(DOU,"DOU",keyLookup)
 	makeTable(DUU,"DUU",keyLookup)
@@ -158,7 +158,7 @@ def main(months):
 			newTiers[poke] = tiers[-1]
 
 	print ""
-	for poke in curTiers:
+	for poke in sorted(curTiers.keys()):
 		if curTiers[poke] != newTiers[poke]:
 			species = keyLookup[poke]
 			if species.endswith('-Mega') or species.endswith('-Mega-X') or species.endswith('-Mega-Y') or species.endswith('-Primal'):
