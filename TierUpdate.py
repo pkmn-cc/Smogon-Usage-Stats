@@ -27,7 +27,7 @@ def makeTable(table,name,keyLookup):
 	print " + ---- + ------------------ + ------- + "
 	print "[/CODE][/HIDE]"
 
-tiers = ['Uber','OU','BL','UU','BL2','RU','BL3','NU','BL4','PU']
+tiers = ['Uber','OU','UUBL','UU','RUBL','RU','NUBL','NU','PUBL','PU','ZUBL','ZU']
 usageTiers = ['ou', 'uu', 'ru', 'nu', 'pu']
 
 def main(months):
@@ -55,13 +55,15 @@ def main(months):
 		if 'tier' not in formatsData[poke].keys():
 			continue
 		old = formatsData[poke]['tier']
-		if old[0] == '(':
+		if old[0] == '(' and old[1] != 'P':
 			old = old[1:-1]
-		if old in ['NFE','LC']:
+		if old[0] == '(' and old[1] == 'P':
+			old = 'ZU'
+		if old in ['NFE','LC','LC Uber']:
 			NFE.append(poke)
 		if old == 'Illegal' or old == 'Unreleased':
 			continue
-		elif old not in tiers:
+		elif old not in tiers and poke not in NFE:
 			old = tiers[-1]
 		curTiers[poke]=old
 
@@ -162,8 +164,8 @@ def main(months):
 	for poke in curTiers.keys():
 		if poke not in usage:
 			continue
-		if curTiers[poke] == 'BL' and poke not in newTiers.keys():
-			newTiers[poke] = 'BL'
+		if curTiers[poke] == 'UUBL' and poke not in newTiers.keys():
+			newTiers[poke] = 'UUBL'
 
 	
 	#next do the UU rises
@@ -187,8 +189,8 @@ def main(months):
 	for poke in curTiers.keys():
 		if poke not in usage:
 			continue
-		if curTiers[poke] == 'BL2' and poke not in newTiers.keys():
-			newTiers[poke] = 'BL2'
+		if curTiers[poke] == 'RUBL' and poke not in newTiers.keys():
+			newTiers[poke] = 'RUBL'
 	
 	#next do the RU rises
 	for poke in curTiers.keys():
@@ -207,8 +209,8 @@ def main(months):
 
 	#next do BL3
 	for poke in curTiers.keys():
-		if curTiers[poke] == 'BL3' and poke not in newTiers.keys():
-			newTiers[poke] = 'BL3'
+		if curTiers[poke] == 'NUBL' and poke not in newTiers.keys():
+			newTiers[poke] = 'NUBL'
 	
 	#next do the NU rises
 	for poke in curTiers.keys():
@@ -227,16 +229,48 @@ def main(months):
 
 	#next do BL4
 	for poke in curTiers.keys():
-		if curTiers[poke] == 'BL4' and poke not in newTiers.keys():
-			newTiers[poke] = 'BL4'
-	
+		if curTiers[poke] == 'PUBL' and poke not in newTiers.keys():
+			newTiers[poke] = 'PUBL'
+
+	#next do the PU rises
+	for poke in curTiers.keys():
+		if poke not in usage:
+			continue
+		if usage[poke][4] > rise and poke not in newTiers.keys():
+			newTiers[poke] = 'PU'
+
+	#next do the ZU drops
+	for poke in curTiers.keys():
+		if curTiers[poke] == 'PU' and poke not in newTiers.keys():
+			if usage[poke][4] < drop:
+				newTiers[poke] = 'ZU'
+			else:
+				newTiers[poke] = 'PU'
+
+	#next do ZUBL
+	for poke in newTiers.keys():
+		if newTiers[poke] == 'ZU' and poke in ['carracosta', 'crabominable', 'exeggutor', 'gorebyss', 'jynx', 'musharna', 'raticatealola', 'raticatealolatotem', 'throh', 'turtonator', 'typenull', 'ursaring', 'victreebel', 'zangoose']:
+			newTiers[poke] = 'ZUBL'
+
 	#the rest go in the lowest tier
 	for poke in curTiers.keys():
 		if poke not in newTiers.keys():
 			newTiers[poke] = tiers[-1]
 
+	for poke in newTiers.keys():
+		if newTiers[poke] == 'UU' and poke in ['alakazam','azumarill','breloom','buzzwole','charizardmegay','conkeldurr','dianciemega','diggersby','dragonite','gallademega','gardevoirmega','gyarados','heracrossmega','hoopaunbound','jirachi','kyuremblack','latiasmega','latios','latiosmega','manaphy','ninetalesalola','porygonz','salamence','scolipede','staraptor','thundurus','thundurustherian','tornadustherian','venusaurmega','victini','volcarona','weavile','xurkitree']:
+			newTiers[poke] = 'UUBL'
+		if newTiers[poke] == 'RU' and poke in ['slowbromega','suicune','hawlucha','crawdaunt','lucario','heracross','venomoth','houndoommega','entei','sceptilemega','sharpedo','absolmega','zoroark','reuniclus','mienshao','durant','tornadus','kyurem','talonflame','darmanitan','meloetta']:
+			newTiers[poke] = 'RUBL'
+		if newTiers[poke] == 'NU' and poke in ['yanmega','slurpuff','emboar','porygon2','noivern','moltres','ribombee','kingdra','exploud','necrozma','tyrantrum','cofagrigus','meloetta','barbaracle','bruxish','cameruptmega','venusaur','gigalith','hoopa']:
+			newTiers[poke] = 'NUBL'
+		if newTiers[poke] == 'PU' and poke in ['vivillon','klinklang','hariyama','barbaracle','vanilluxe','medicham','passimian','magmortar','kingler','charizard','tauros','typhlosion','gallade','samurott','sawk','archeops','pyroar','aromatisse','minior','exeggutoralola']:
+			newTiers[poke] = 'PUBL'
+
 	print ""
 	for poke in curTiers:
+		if newTiers[poke] == 'ZU' and poke in NFE:
+			continue
 		if curTiers[poke] != newTiers[poke]:
 			species = keyLookup[poke]
 			if species.endswith('-Mega') or species.endswith('-Mega-X') or species.endswith('-Mega-Y') or species.endswith('-Primal'):
